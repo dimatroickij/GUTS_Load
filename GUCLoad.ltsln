@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("87E149B1-EDFF-42F9-BFE0-C5FADE532965") = "ESVLoad", "ESVLoad\ESVLoad.usr", "87E149B1-EDFF-42F9-BFE0-C5FADE532965"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkc6XEdVQyBMb2FkXEVTVkxvYWRcRVNWTG9hZC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RzpcR1VDIExvYWRcRVNWTG9hZFxFU1ZMb2FkLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDItMTFUMTc6MzM6MjcuNzMxNTQzMyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+AAAAAAAAAA__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("12B93DD4-78F0-44E2-9CEF-C4E0D486BF30") = "ESVLoad_1Mb", "ESVLoad_1Mb\ESVLoad_1Mb.usr", "12B93DD4-78F0-44E2-9CEF-C4E0D486BF30"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkc6XEdVQyBMb2FkXEVTVkxvYWRfMU1iXEVTVkxvYWRfMU1iLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5HOlxHVUMgTG9hZFxFU1ZMb2FkXzFNYlxFU1ZMb2FkXzFNYi51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIwLTAyLTEyVDEzOjMyOjMxLjk1Nzg1NDgrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("1C2A8AFB-B465-42D7-AC13-F551B626F7B0") = "ESVLoad_5Mb", "ESVLoad_5Mb\ESVLoad_5Mb.usr", "1C2A8AFB-B465-42D7-AC13-F551B626F7B0"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkc6XEdVQyBMb2FkXEVTVkxvYWRfNU1iXEVTVkxvYWRfNU1iLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5HOlxHVUMgTG9hZFxFU1ZMb2FkXzVNYlxFU1ZMb2FkXzVNYi51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIwLTAyLTEyVDEzOjM0OjEyLjcwOTkyOSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		87E149B1-EDFF-42F9-BFE0-C5FADE532965.Debug|Any CPU.Build.0 = Debug|Any CPU
+		87E149B1-EDFF-42F9-BFE0-C5FADE532965.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		87E149B1-EDFF-42F9-BFE0-C5FADE532965.Release|Any CPU.Build.0 = Release|Any CPU
+		87E149B1-EDFF-42F9-BFE0-C5FADE532965.Release|Any CPU.ActiveCfg = Release|Any CPU
+		12B93DD4-78F0-44E2-9CEF-C4E0D486BF30.Debug|Any CPU.Build.0 = Debug|Any CPU
+		12B93DD4-78F0-44E2-9CEF-C4E0D486BF30.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		12B93DD4-78F0-44E2-9CEF-C4E0D486BF30.Release|Any CPU.Build.0 = Release|Any CPU
+		12B93DD4-78F0-44E2-9CEF-C4E0D486BF30.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Release|Any CPU.Build.0 = Release|Any CPU
+		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

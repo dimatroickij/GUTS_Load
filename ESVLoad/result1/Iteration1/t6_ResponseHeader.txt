@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Wed, 12 Feb 2020 15:47:17 GMT
+Content-Type: text/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Undertow/1
+X-Upstream: 10.215.0.137:8080
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IG:\GUC Load\ESVLoad
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-eg:\guc load\esvload\\logfile.log
+g:\guc load\esvload\\combined_ESVLoad.c
+g:\guc load\esvload\\pre_cci.c

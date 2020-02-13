@@ -1,0 +1,1 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCMSSignatureDetachedResponse xmlns="http://esv.server.rt.ru"><VerifyCMSSignatureDetachedResult><Code>0</Code><Description>Электронная подпись действительна</Description></VerifyCMSSignatureDetachedResult></VerifyCMSSignatureDetachedResponse></soap:Body></soap:Envelope>
