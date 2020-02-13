@@ -1,57 +1,82 @@
 [
     {
+        "transactionName": "VerifyXAdES_withSignedReport",
+        "rawStartTime": 1581584234294,
+        "rawEndTime": 1581584235845
+    },
+    {
         "transactionName": "VerifyCMSSignature_withSignedReport",
-        "rawStartTime": 1581522429956,
-        "rawEndTime": 1581522431344
+        "rawStartTime": 1581584236669,
+        "rawEndTime": 1581584237348
     },
     {
         "transactionName": "VerifyCMSSignatureByHash_simple",
-        "rawStartTime": 1581522432160,
-        "rawEndTime": 1581522432558
+        "rawStartTime": 1581584238173,
+        "rawEndTime": 1581584238531
     },
     {
         "transactionName": "VerifyCMSSignature_simple",
-        "rawStartTime": 1581522433383,
-        "rawEndTime": 1581522433830
+        "rawStartTime": 1581584239354,
+        "rawEndTime": 1581584239789
     },
     {
         "transactionName": "VerifyCMSSignatureDetached_simple",
-        "rawStartTime": 1581522434652,
-        "rawEndTime": 1581522435130
+        "rawStartTime": 1581584240609,
+        "rawEndTime": 1581584241077
     },
     {
         "transactionName": "VerifyCMSSignatureByHash_withSignedReport",
-        "rawStartTime": 1581522435952,
-        "rawEndTime": 1581522436482
+        "rawStartTime": 1581584241895,
+        "rawEndTime": 1581584242404
     },
     {
         "transactionName": "VerifyCMSSignatureDetached_withSignedReport",
-        "rawStartTime": 1581522437311,
-        "rawEndTime": 1581522437973
+        "rawStartTime": 1581584243248,
+        "rawEndTime": 1581584243829
     },
     {
         "transactionName": "VerifyPAdES_simple",
-        "rawStartTime": 1581522438809,
-        "rawEndTime": 1581522439398
+        "rawStartTime": 1581584244661,
+        "rawEndTime": 1581584245263
     },
     {
         "transactionName": "VerifyPAdES_withSignedReport",
-        "rawStartTime": 1581522440264,
-        "rawEndTime": 1581522441054
+        "rawStartTime": 1581584246093,
+        "rawEndTime": 1581584246835
     },
     {
         "transactionName": "VerifyCADES_simple",
-        "rawStartTime": 1581522441877,
-        "rawEndTime": 1581522442581
+        "rawStartTime": 1581584247661,
+        "rawEndTime": 1581584248245
     },
     {
         "transactionName": "VerifyCADES_withSignedReport",
-        "rawStartTime": 1581522443416,
-        "rawEndTime": 1581522444179
+        "rawStartTime": 1581584249074,
+        "rawEndTime": 1581584249861
     },
     {
         "transactionName": "VerifyXAdES_simple",
-        "rawStartTime": 1581522445027,
-        "rawEndTime": 1581522445613
+        "rawStartTime": 1581584250713,
+        "rawEndTime": 1581584251321
+    },
+    {
+        "transactionName": "VerifyWSS_simple",
+        "rawStartTime": 1581584252138,
+        "rawEndTime": 1581584252539
+    },
+    {
+        "transactionName": "VerifyWSS_withSignedReport",
+        "rawStartTime": 1581584253371,
+        "rawEndTime": 1581584253916
+    },
+    {
+        "transactionName": "VerifyXML_simple",
+        "rawStartTime": 1581584254735,
+        "rawEndTime": 1581584255414
+    },
+    {
+        "transactionName": "VerifyXML_withSignedReport",
+        "rawStartTime": 1581584256227,
+        "rawEndTime": 1581584257086
     }
 ]

@@ -15,4 +15,8 @@
 #include "VerifyCADES_withSignedReport.c"
 #include "VerifyXAdES_simple.c"
 #include "VerifyXAdES_withSignedReport.c"
+#include "VerifyWSS_simple.c"
+#include "VerifyWSS_withSignedReport.c"
+#include "VerifyXML_simple.c"
+#include "VerifyXML_withSignedReport.c"
 #include "vuser_end.c"

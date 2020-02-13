@@ -3258,10 +3258,147 @@ VerifyXAdES_withSignedReport()
 }
 # 17 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
 
+# 1 "VerifyWSS_simple.c" 1
+VerifyWSS_simple()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyWSS_simple_file}");
+
+	lr_start_transaction("VerifyWSS_simple");
+	soap_request("StepName=VerifyWSS_simple",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_simple_response}"))==0)
+	{
+        lr_end_transaction("VerifyWSS_simple", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_simple_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyWSS_simple", 0);
+	return 0;
+}
+# 18 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
+
+# 1 "VerifyWSS_withSignedReport.c" 1
+VerifyWSS_withSignedReport()
+{
+
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyWSS_withSignedReporte_file}");
+
+	lr_start_transaction("VerifyWSS_withSignedReport");
+	soap_request("StepName=VerifyWSS_withSignedReport",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_withSignedReport_response}"))==0)
+	{
+        lr_end_transaction("VerifyWSS_withSignedReport", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_withSignedReport_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyWSS_withSignedReport", 0);
+	return 0;
+}
+# 19 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
+
+# 1 "VerifyXML_simple.c" 1
+VerifyXML_simple()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyXML_simple_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyXML_simple_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyXML_simple_file}");
+
+	lr_start_transaction("VerifyXML_simple");
+	soap_request("StepName=VerifyXML_simple",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyXML_simple_response}"))==0)
+	{
+        lr_end_transaction("VerifyXML_simple", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_simple_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyXML_simple", 0);
+	return 0;
+}
+# 20 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
+
+# 1 "VerifyXML_withSignedReport.c" 1
+VerifyXML_withSignedReport()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyXML_withSignedReport_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyXML_withSignedReport_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyXML_withSignedReport_file}");
+
+	lr_start_transaction("VerifyXML_withSignedReport");
+	soap_request("StepName=VerifyXML_withSignedReport",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyXML_withSignedReport_response}"))==0)
+	{
+        lr_end_transaction("VerifyXML_withSignedReport", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_withSignedReport_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyXML_withSignedReport", 0);
+	return 0;
+}
+# 21 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
+
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 18 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
+# 22 "g:\\guc load\\esvload\\\\combined_ESVLoad.c" 2
 

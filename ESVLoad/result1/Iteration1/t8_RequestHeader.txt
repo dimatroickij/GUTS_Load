@@ -6,5 +6,5 @@ Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
 Host: guc-test-01-nginx-01.12.voskhod.local
-Content-Length: 969562
+Content-Length: 969506
 
