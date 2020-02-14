@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="13">
-  <HTTPTask id="13" hostname="guc-test-01-nginx-01.12.voskhod.local" path="/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl" url="http://guc-test-01-nginx-01.12.voskhod.local/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl" ip="10.215.0.129" port="80" client_ip="10.216.0.135" client_port="23209" connectionId="1688" origin="Primary" encodingType="ANSI" startDateTime="2020-02-13T11:57:32.238+03:00" startTime="18881" endTime="18976" blockedTime="0" dnsTime="0" connectTime="0" sendTime="0" waitTime="0" receiveTime="0" sslNegotiateTime="0" responseBodySize="0">
+  <HTTPTask id="13" hostname="guc-test-01-nginx-01.12.voskhod.local" path="/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl" url="http://guc-test-01-nginx-01.12.voskhod.local/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl" ip="10.215.0.129" port="80" client_ip="10.216.0.135" client_port="14427" connectionId="1688" origin="Primary" encodingType="ANSI" startDateTime="2020-02-14T09:54:46.919+03:00" startTime="18884" endTime="19023" blockedTime="0" dnsTime="0" connectTime="0" sendTime="0" waitTime="0" receiveTime="0" sslNegotiateTime="0" responseBodySize="0">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -117,7 +117,7 @@
         <HTTPHeaderEntity name="Date" index="1">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VGh1LCAxMyBGZWIgMjAyMCAwODo1NzozMiBHTVQ=</ActualData>
+              <ActualData>RnJpLCAxNCBGZWIgMjAyMCAwNjo1NDo0NyBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -157,7 +157,7 @@
         <HTTPHeaderEntity name="X-Upstream" index="6">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>MTAuMjE1LjAuMTM3OjgwODA=</ActualData>
+              <ActualData>MTAuMjE1LjAuMTM5OjgwODA=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -165,7 +165,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzEuMTIuMg0KRGF0ZTogVGh1LCAxMyBGZWIgMjAyMCAwODo1NzozMiBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC94bWw7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM1Ng0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KWC1Qb3dlcmVkLUJ5OiBVbmRlcnRvdy8xDQpYLVVwc3RyZWFtOiAxMC4yMTUuMC4xMzc6ODA4MA0KDQo=</ActualData>
+              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzEuMTIuMg0KRGF0ZTogRnJpLCAxNCBGZWIgMjAyMCAwNjo1NDo0NyBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC94bWw7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM1Ng0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KWC1Qb3dlcmVkLUJ5OiBVbmRlcnRvdy8xDQpYLVVwc3RyZWFtOiAxMC4yMTUuMC4xMzk6ODA4MA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>

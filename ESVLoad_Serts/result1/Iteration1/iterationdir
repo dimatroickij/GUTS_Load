@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[VerifyCertificate_withSignedReport]
+SnapshotIndex=I1_VerifyCertificate_withSignedReport
+[VerifyCertificate_simple]
+SnapshotIndex=I1_VerifyCertificate_simple

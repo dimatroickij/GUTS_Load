@@ -7,7 +7,7 @@ Project("87E149B1-EDFF-42F9-BFE0-C5FADE532965") = "ESVLoad", "ESVLoad\ESVLoad.us
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkc6XEdVQyBMb2FkXEVTVkxvYWRcRVNWTG9hZC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RzpcR1VDIExvYWRcRVNWTG9hZFxFU1ZMb2FkLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDItMTFUMTc6MzM6MjcuNzMxNTQzMyswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+AAAAAAAAAA__
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("12B93DD4-78F0-44E2-9CEF-C4E0D486BF30") = "ESVLoad_1Mb", "ESVLoad_1Mb\ESVLoad_1Mb.usr", "12B93DD4-78F0-44E2-9CEF-C4E0D486BF30"
@@ -24,6 +24,14 @@ Project("1C2A8AFB-B465-42D7-AC13-F551B626F7B0") = "ESVLoad_5Mb", "ESVLoad_5Mb\ES
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
 		Value = False
+	EndProjectSection
+EndProject
+Project("6A986F23-370D-4D25-88A9-D5E46E2A5323") = "ESVLoad_Serts", "ESVLoad_Serts\ESVLoad_Serts.usr", "6A986F23-370D-4D25-88A9-D5E46E2A5323"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkc6XEdVQyBMb2FkXEVTVkxvYWRfU2VydHNcRVNWTG9hZF9TZXJ0cy51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RzpcR1VDIExvYWRcRVNWTG9hZF9TZXJ0c1xFU1ZMb2FkX1NlcnRzLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjAtMDItMTNUMTY6NTE6NTguMTI1NDk2NSswMzowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
 	EndProjectSection
 EndProject
 Global
@@ -44,5 +52,9 @@ Global
 		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Release|Any CPU.Build.0 = Release|Any CPU
 		1C2A8AFB-B465-42D7-AC13-F551B626F7B0.Release|Any CPU.ActiveCfg = Release|Any CPU
+		6A986F23-370D-4D25-88A9-D5E46E2A5323.Debug|Any CPU.Build.0 = Debug|Any CPU
+		6A986F23-370D-4D25-88A9-D5E46E2A5323.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		6A986F23-370D-4D25-88A9-D5E46E2A5323.Release|Any CPU.Build.0 = Release|Any CPU
+		6A986F23-370D-4D25-88A9-D5E46E2A5323.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal

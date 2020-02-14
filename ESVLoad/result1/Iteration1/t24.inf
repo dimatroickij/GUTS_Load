@@ -1,0 +1,4 @@
+[t24]
+RequestBodyFile=t24_RequestBody.txt
+FileName1=t24_ResponseBody.xml
+Total=1
