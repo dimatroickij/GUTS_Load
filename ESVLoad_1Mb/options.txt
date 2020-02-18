@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\a.pervushin\Documents\gitLab\guts_load\ESVLoad_1Mb
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\a.pervushin\documents\gitlab\guts_load\esvload_1mb\\logfile.log
+c:\users\a.pervushin\documents\gitlab\guts_load\esvload_1mb\\combined_ESVLoad_1Mb.c
+c:\users\a.pervushin\documents\gitlab\guts_load\esvload_1mb\\pre_cci.c
