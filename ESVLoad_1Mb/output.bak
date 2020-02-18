@@ -1,71 +1,18 @@
-Virtual User Script started at: 18.02.2020 12:39:48
+Virtual User Script started at: 18.02.2020 12:43:47
 Starting action vuser_init.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-Starting action VerifyXML_withSignedReport.
-VerifyXML_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyXML_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyXML_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyXML_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyXML_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyXML_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyXML_withSignedReport.c(7): F:\LR_DATA\1024/VerifyXML_withSignedReport_0.xml
-VerifyXML_withSignedReport.c(10): Use file: {VerifyXML_withSignedReport_file}
-VerifyXML_withSignedReport.c(12): Notify: Transaction "VerifyXML_withSignedReport" started.
-VerifyXML_withSignedReport.c(13): SOAP request "VerifyXML_withSignedReport" started
-VerifyXML_withSignedReport.c(13): SOAP request "VerifyXML_withSignedReport" was successful
-VerifyXML_withSignedReport.c(29): Notify: Transaction "VerifyXML_withSignedReport" ended with a "Pass" status (Duration: 0,6836 Wasted Time: 0,0542).
-Ending action VerifyXML_withSignedReport.
-Ending iteration 1.
-Starting iteration 2.
-Starting action VerifyXML_simple.
-VerifyXML_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(7): F:\LR_DATA\1024/VerifyXML_simple_9.xml
-VerifyXML_simple.c(10): Use file: {VerifyXML_simple_file}
-VerifyXML_simple.c(12): Notify: Transaction "VerifyXML_simple" started.
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" started
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" was successful
-VerifyXML_simple.c(29): Notify: Transaction "VerifyXML_simple" ended with a "Pass" status (Duration: 0.4328 Wasted Time: 0.0212).
-Ending action VerifyXML_simple.
-Ending iteration 2.
-Starting iteration 3.
-Starting action VerifyXML_simple.
-VerifyXML_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(7): F:\LR_DATA\1024/VerifyXML_simple_9.xml
-VerifyXML_simple.c(10): Use file: {VerifyXML_simple_file}
-VerifyXML_simple.c(12): Notify: Transaction "VerifyXML_simple" started.
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" started
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" was successful
-VerifyXML_simple.c(29): Notify: Transaction "VerifyXML_simple" ended with a "Pass" status (Duration: 0,3729 Wasted Time: 0,0094).
-Ending action VerifyXML_simple.
-Ending iteration 3.
-Starting iteration 4.
-Starting action VerifyXML_simple.
-VerifyXML_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyXML_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyXML_simple.c(7): F:\LR_DATA\1024/VerifyXML_simple_8.xml
-VerifyXML_simple.c(10): Use file: {VerifyXML_simple_file}
-VerifyXML_simple.c(12): Notify: Transaction "VerifyXML_simple" started.
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" started
-VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" was successful
-VerifyXML_simple.c(29): Notify: Transaction "VerifyXML_simple" ended with a "Pass" status (Duration: 0,3246 Wasted Time: 0,0088).
-Ending action VerifyXML_simple.
-Ending iteration 4.
+Starting action VerifyCMSSignature_simple.
+VerifyCMSSignature_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(7): F:\LR_DATA\1024/VerifyCMSSignature_simple_0.xml
+VerifyCMSSignature_simple.c(8): Error (-17948): Can not open file.
+Abort was called from an action.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

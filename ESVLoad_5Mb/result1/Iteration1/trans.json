@@ -1,0 +1,82 @@
+[
+    {
+        "transactionName": "VerifyCMSSignature_simple",
+        "rawStartTime": 1582031823321,
+        "rawEndTime": 1582031825006
+    },
+    {
+        "transactionName": "VerifyCMSSignature_withSignedReport",
+        "rawStartTime": 1582031825243,
+        "rawEndTime": 1582031827315
+    },
+    {
+        "transactionName": "VerifyCMSSignatureByHash_simple",
+        "rawStartTime": 1582031827476,
+        "rawEndTime": 1582031827595
+    },
+    {
+        "transactionName": "VerifyCMSSignatureByHash_withSignedReport",
+        "rawStartTime": 1582031827784,
+        "rawEndTime": 1582031828246
+    },
+    {
+        "transactionName": "VerifyCMSSignatureDetached_simple",
+        "rawStartTime": 1582031828543,
+        "rawEndTime": 1582031829750
+    },
+    {
+        "transactionName": "VerifyCMSSignatureDetached_withSignedReport",
+        "rawStartTime": 1582031830013,
+        "rawEndTime": 1582031831117
+    },
+    {
+        "transactionName": "VerifyPAdES_simple",
+        "rawStartTime": 1582031831432,
+        "rawEndTime": 1582031833320
+    },
+    {
+        "transactionName": "VerifyPAdES_withSignedReport",
+        "rawStartTime": 1582031833673,
+        "rawEndTime": 1582031835281
+    },
+    {
+        "transactionName": "VerifyCADES_simple",
+        "rawStartTime": 1582031835542,
+        "rawEndTime": 1582031836663
+    },
+    {
+        "transactionName": "VerifyCADES_withSignedReport",
+        "rawStartTime": 1582031836892,
+        "rawEndTime": 1582031838159
+    },
+    {
+        "transactionName": "VerifyXAdES_simple",
+        "rawStartTime": 1582031838468,
+        "rawEndTime": 1582031841012
+    },
+    {
+        "transactionName": "VerifyXAdES_withSignedReport",
+        "rawStartTime": 1582031841329,
+        "rawEndTime": 1582031843291
+    },
+    {
+        "transactionName": "VerifyWSS_simple",
+        "rawStartTime": 1582031843474,
+        "rawEndTime": 1582031843586
+    },
+    {
+        "transactionName": "VerifyWSS_withSignedReport",
+        "rawStartTime": 1582031843766,
+        "rawEndTime": 1582031844021
+    },
+    {
+        "transactionName": "VerifyXML_simple",
+        "rawStartTime": 1582031844333,
+        "rawEndTime": 1582031846400
+    },
+    {
+        "transactionName": "VerifyXML_withSignedReport",
+        "rawStartTime": 1582031846717,
+        "rawEndTime": 1582031848909
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\d.troickiy\Desktop\ГУЦ\Нагрузочные тесты\guts_load\ESVLoad_5Mb
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_5mb\\logfile.log
+c:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_5mb\\combined_ESVLoad_5Mb.c
+c:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_5mb\\pre_cci.c

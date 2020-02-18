@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=application/xml
+StepName=Service: Cleanup Cookies
+Total=1
+FileName1=t3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=0
+URL1=http://guc-test-01-nginx-01.12.voskhod.local/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl
