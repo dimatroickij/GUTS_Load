@@ -1,0 +1,47 @@
+Virtual User Script started at: 02.03.2020 16:29:07
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyCMSSignature_simple.
+VerifyCMSSignature_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(7): F:\LR_DATA\100/VerifyCMSSignature_simple_0.xml
+VerifyCMSSignature_simple.c(10): Use file: {VerifyCMSSignature_simple_file}
+VerifyCMSSignature_simple.c(12): Notify: Transaction "VerifyCMSSignature_simple" started.
+VerifyCMSSignature_simple.c(14): SOAP request "VerifyCMSSignature_simple" started
+VerifyCMSSignature_simple.c(14): SOAP request "VerifyCMSSignature_simple" was successful
+VerifyCMSSignature_simple.c(30): Notify: Transaction "VerifyCMSSignature_simple" ended with a "Pass" status (Duration: 0,2362 Wasted Time: 0,0418).
+Ending action VerifyCMSSignature_simple.
+Starting action VerifyCMSSignature_withSignedReport.
+VerifyCMSSignature_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_withSignedReport.c(7): F:\LR_DATA\100/VerifyCMSSignature_withSignedReport_86.xml
+VerifyCMSSignature_withSignedReport.c(10): Use file: {VerifyCMSSignature_withSignedReport_file}
+VerifyCMSSignature_withSignedReport.c(12): Notify: Transaction "VerifyCMSSignature_withSignedReport" started.
+VerifyCMSSignature_withSignedReport.c(13): SOAP request "VerifyCMSSignature_withSignedReport" started
+VerifyCMSSignature_withSignedReport.c(13): SOAP request "VerifyCMSSignature_withSignedReport" was successful
+VerifyCMSSignature_withSignedReport.c(29): Notify: Transaction "VerifyCMSSignature_withSignedReport" ended with a "Pass" status (Duration: 0,2962 Wasted Time: 0,0031).
+Ending action VerifyCMSSignature_withSignedReport.
+Starting action VerifyCMSSignatureByHash_simple.
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(7): F:\LR_DATA\100/VerifyCMSSignatureByHash_simple_192.xml
+VerifyCMSSignatureByHash_simple.c(8): Error (-17948): Can not open file.
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

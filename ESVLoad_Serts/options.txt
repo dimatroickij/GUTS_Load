@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IG:\GUC Load\ESVLoad_Serts
+-IF:\guts_load\ESVLoad_Serts
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--eg:\guc load\esvload_serts\\logfile.log
-g:\guc load\esvload_serts\\combined_ESVLoad_Serts.c
-g:\guc load\esvload_serts\\pre_cci.c
+-ef:\guts_load\esvload_serts\\logfile.log
+f:\guts_load\esvload_serts\\combined_ESVLoad_Serts.c
+f:\guts_load\esvload_serts\\pre_cci.c

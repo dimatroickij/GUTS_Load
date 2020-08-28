@@ -1,0 +1,70 @@
+Virtual User Script started at: 13.03.2020 9:46:08
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyTimeStamp_simple.
+VerifyTimeStamp_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(7): F:\LR_DATA\timestamp/VerifyTimeStamp_simple_86.xml
+VerifyTimeStamp_simple.c(10): Use file: {VerifyTimeStamp_simple_file}
+VerifyTimeStamp_simple.c(12): Notify: Transaction "VerifyTimeStamp_simple" started.
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" started
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" was successful
+VerifyTimeStamp_simple.c(29): Notify: Transaction "VerifyTimeStamp_simple" ended with a "Pass" status (Duration: 0,7964 Wasted Time: 0,0431).
+Ending action VerifyTimeStamp_simple.
+Ending iteration 1.
+Starting iteration 2.
+Starting action VerifyTimeStamp_simple.
+VerifyTimeStamp_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(7): F:\LR_DATA\timestamp/VerifyTimeStamp_simple_85.xml
+VerifyTimeStamp_simple.c(10): Use file: {VerifyTimeStamp_simple_file}
+VerifyTimeStamp_simple.c(12): Notify: Transaction "VerifyTimeStamp_simple" started.
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" started
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" was successful
+VerifyTimeStamp_simple.c(29): Notify: Transaction "VerifyTimeStamp_simple" ended with a "Pass" status (Duration: 0,7505 Wasted Time: 0,0009).
+Ending action VerifyTimeStamp_simple.
+Ending iteration 2.
+Starting iteration 3.
+Starting action VerifyTimeStamp_simple.
+VerifyTimeStamp_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(7): F:\LR_DATA\timestamp/VerifyTimeStamp_simple_86.xml
+VerifyTimeStamp_simple.c(10): Use file: {VerifyTimeStamp_simple_file}
+VerifyTimeStamp_simple.c(12): Notify: Transaction "VerifyTimeStamp_simple" started.
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" started
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" was successful
+VerifyTimeStamp_simple.c(29): Notify: Transaction "VerifyTimeStamp_simple" ended with a "Pass" status (Duration: 0,7902 Wasted Time: 0,0007).
+Ending action VerifyTimeStamp_simple.
+Ending iteration 3.
+Starting iteration 4.
+Starting action VerifyTimeStamp_simple.
+VerifyTimeStamp_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_simple.c(7): F:\LR_DATA\timestamp/VerifyTimeStamp_simple_72.xml
+VerifyTimeStamp_simple.c(10): Use file: {VerifyTimeStamp_simple_file}
+VerifyTimeStamp_simple.c(12): Notify: Transaction "VerifyTimeStamp_simple" started.
+VerifyTimeStamp_simple.c(13): SOAP request "VerifyTimeStamp_simple" started
+VerifyTimeStamp_simple.c(13): Notify: Transaction "VerifyTimeStamp_simple" ended with a "Stop" status (Duration: 0,4885 Wasted Time: 0,0004).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

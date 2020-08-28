@@ -33,7 +33,7 @@
     <FileEntry Name="VerifyCMSSignatureByHash_simple.csv" Filter="2" />
     <FileEntry Name="VerifyPAdES_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCMSSignature_simple.csv" Filter="2" />
-    <FileEntry Name="VerifyWSSSignature_simple.csv" Filter="2" />
+    <FileEntry Name="VerifyWSS_simple.csv" Filter="2" />
     <FileEntry Name="VerifyXAdES_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCADES_withSignedReport.csv" Filter="2" />
     <FileEntry Name="URL.dat" Filter="2" />
@@ -50,53 +50,24 @@
     <FileEntry Name="combined_ESVLoad_5Mb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="WSDL\" Filter="2" />
-    <FileEntry Name="104786030440.idx" Filter="1" />
-    <FileEntry Name="107135110440.idx" Filter="1" />
-    <FileEntry Name="132716240440.idx" Filter="1" />
-    <FileEntry Name="167081944440.idx" Filter="1" />
-    <FileEntry Name="17240950440.idx" Filter="1" />
-    <FileEntry Name="195357827440.idx" Filter="1" />
-    <FileEntry Name="197184113440.idx" Filter="1" />
-    <FileEntry Name="223445537440.idx" Filter="1" />
-    <FileEntry Name="223877258440.idx" Filter="1" />
-    <FileEntry Name="253390894440.idx" Filter="1" />
-    <FileEntry Name="263290110440.idx" Filter="1" />
-    <FileEntry Name="263436786440.idx" Filter="1" />
-    <FileEntry Name="3780863440.idx" Filter="1" />
-    <FileEntry Name="378086344_2NH.529.idx" Filter="1" />
-    <FileEntry Name="378086344_3VO.195.idx" Filter="1" />
-    <FileEntry Name="378086344_4qc.697.idx" Filter="1" />
-    <FileEntry Name="378086344_4uo.941.idx" Filter="1" />
-    <FileEntry Name="378086344_7gn.319.idx" Filter="1" />
-    <FileEntry Name="378086344_AQ9.571.idx" Filter="1" />
-    <FileEntry Name="378086344_bOA.725.idx" Filter="1" />
-    <FileEntry Name="378086344_FFT.489.idx" Filter="1" />
-    <FileEntry Name="378086344_fwL.885.idx" Filter="1" />
-    <FileEntry Name="378086344_hPZ.579.idx" Filter="1" />
-    <FileEntry Name="378086344_hT2.589.idx" Filter="1" />
-    <FileEntry Name="378086344_iYx.487.idx" Filter="1" />
-    <FileEntry Name="378086344_ny5.89.idx" Filter="1" />
-    <FileEntry Name="378086344_qVY.765.idx" Filter="1" />
-    <FileEntry Name="378086344_rEb.301.idx" Filter="1" />
-    <FileEntry Name="378086344_rqd.955.idx" Filter="1" />
-    <FileEntry Name="378086344_uWu.393.idx" Filter="1" />
-    <FileEntry Name="378086344_zHN.81.idx" Filter="1" />
-    <FileEntry Name="44743311440.idx" Filter="1" />
-    <FileEntry Name="47816477440.idx" Filter="1" />
-    <FileEntry Name="4781647744_55V.488.idx" Filter="1" />
-    <FileEntry Name="4781647744_c1E.886.idx" Filter="1" />
-    <FileEntry Name="4781647744_Dyt.590.idx" Filter="1" />
-    <FileEntry Name="4781647744_Esj.302.idx" Filter="1" />
-    <FileEntry Name="4781647744_iD6.580.idx" Filter="1" />
-    <FileEntry Name="4781647744_Jfk.766.idx" Filter="1" />
-    <FileEntry Name="4781647744_LVZ.572.idx" Filter="1" />
-    <FileEntry Name="4781647744_q91.320.idx" Filter="1" />
-    <FileEntry Name="4781647744_vWI.698.idx" Filter="1" />
-    <FileEntry Name="4781647744_ZuL.726.idx" Filter="1" />
-    <FileEntry Name="6353241440.idx" Filter="1" />
-    <FileEntry Name="88709658440.idx" Filter="1" />
-    <FileEntry Name="95283005440.idx" Filter="1" />
-    <FileEntry Name="97974540440.idx" Filter="1" />
+    <FileEntry Name="10846638440.idx" Filter="1" />
+    <FileEntry Name="162334559440.idx" Filter="1" />
+    <FileEntry Name="162367303440.idx" Filter="1" />
+    <FileEntry Name="163891331440.idx" Filter="1" />
+    <FileEntry Name="166048356440.idx" Filter="1" />
+    <FileEntry Name="167556100440.idx" Filter="1" />
+    <FileEntry Name="16896186440.idx" Filter="1" />
+    <FileEntry Name="18531083440.idx" Filter="1" />
+    <FileEntry Name="218865170440.idx" Filter="1" />
+    <FileEntry Name="244615312440.idx" Filter="1" />
+    <FileEntry Name="251999082440.idx" Filter="1" />
+    <FileEntry Name="255933290440.idx" Filter="1" />
+    <FileEntry Name="256451691440.idx" Filter="1" />
+    <FileEntry Name="26529051440.idx" Filter="1" />
+    <FileEntry Name="27779673440.idx" Filter="1" />
+    <FileEntry Name="28075027440.idx" Filter="1" />
+    <FileEntry Name="84018483440.idx" Filter="1" />
+    <FileEntry Name="98749933440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -121,6 +92,7 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
     <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyWSSSignature_simple.csv" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

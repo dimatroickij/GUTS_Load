@@ -50,48 +50,24 @@
     <FileEntry Name="combined_ESVLoad_1Mb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="WSDL\" Filter="2" />
-    <FileEntry Name="100876980440.idx" Filter="1" />
-    <FileEntry Name="108166487440.idx" Filter="1" />
-    <FileEntry Name="111423747440.idx" Filter="1" />
-    <FileEntry Name="113601142440.idx" Filter="1" />
-    <FileEntry Name="125761772440.idx" Filter="1" />
-    <FileEntry Name="12576177244_2PI.71.idx" Filter="1" />
-    <FileEntry Name="12576177244_7dC.977.idx" Filter="1" />
-    <FileEntry Name="12576177244_A9Q.667.idx" Filter="1" />
-    <FileEntry Name="12576177244_B4R.311.idx" Filter="1" />
-    <FileEntry Name="12576177244_tvD.169.idx" Filter="1" />
-    <FileEntry Name="12576177244_XLK.453.idx" Filter="1" />
-    <FileEntry Name="147898978440.idx" Filter="1" />
-    <FileEntry Name="148368096440.idx" Filter="1" />
-    <FileEntry Name="149440346440.idx" Filter="1" />
-    <FileEntry Name="170856701440.idx" Filter="1" />
-    <FileEntry Name="171829810440.idx" Filter="1" />
-    <FileEntry Name="176601351440.idx" Filter="1" />
-    <FileEntry Name="177234820440.idx" Filter="1" />
-    <FileEntry Name="179198713440.idx" Filter="1" />
-    <FileEntry Name="18976894440.idx" Filter="1" />
-    <FileEntry Name="192309947440.idx" Filter="1" />
-    <FileEntry Name="195670758440.idx" Filter="1" />
-    <FileEntry Name="212567970440.idx" Filter="1" />
-    <FileEntry Name="218146017440.idx" Filter="1" />
-    <FileEntry Name="226595296440.idx" Filter="1" />
-    <FileEntry Name="229368421440.idx" Filter="1" />
-    <FileEntry Name="246751418440.idx" Filter="1" />
-    <FileEntry Name="26024694440.idx" Filter="1" />
-    <FileEntry Name="29591759440.idx" Filter="1" />
-    <FileEntry Name="35693646440.idx" Filter="1" />
-    <FileEntry Name="4262838440.idx" Filter="1" />
-    <FileEntry Name="43189300440.idx" Filter="1" />
-    <FileEntry Name="43566712440.idx" Filter="1" />
-    <FileEntry Name="51205440440.idx" Filter="1" />
-    <FileEntry Name="52704006440.idx" Filter="1" />
-    <FileEntry Name="60109222440.idx" Filter="1" />
-    <FileEntry Name="62988887440.idx" Filter="1" />
-    <FileEntry Name="64137103440.idx" Filter="1" />
-    <FileEntry Name="70529443440.idx" Filter="1" />
-    <FileEntry Name="87426515440.idx" Filter="1" />
-    <FileEntry Name="89638479440.idx" Filter="1" />
-    <FileEntry Name="90052450440.idx" Filter="1" />
+    <FileEntry Name="102068677440.idx" Filter="1" />
+    <FileEntry Name="106362975440.idx" Filter="1" />
+    <FileEntry Name="11226626440.idx" Filter="1" />
+    <FileEntry Name="114154717440.idx" Filter="1" />
+    <FileEntry Name="116077734440.idx" Filter="1" />
+    <FileEntry Name="119669585440.idx" Filter="1" />
+    <FileEntry Name="125888191440.idx" Filter="1" />
+    <FileEntry Name="130029920440.idx" Filter="1" />
+    <FileEntry Name="151042532440.idx" Filter="1" />
+    <FileEntry Name="165282255440.idx" Filter="1" />
+    <FileEntry Name="229042023440.idx" Filter="1" />
+    <FileEntry Name="238237867440.idx" Filter="1" />
+    <FileEntry Name="239293917440.idx" Filter="1" />
+    <FileEntry Name="252906585440.idx" Filter="1" />
+    <FileEntry Name="262023883440.idx" Filter="1" />
+    <FileEntry Name="86271237440.idx" Filter="1" />
+    <FileEntry Name="93337200440.idx" Filter="1" />
+    <FileEntry Name="96498292440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -114,6 +90,8 @@
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

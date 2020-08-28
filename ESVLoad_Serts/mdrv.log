@@ -1,10 +1,16 @@
-Error: missing newline in G:\GUC Load\ESVLoad_Serts\VerifyCertificate_withSignedReport.csv
-Error: missing newline in G:\GUC Load\ESVLoad_Serts\VerifyCertificate_simple.csv
-Virtual User Script started at: 14.02.2020 9:53:44
-Starting action vuser_init.
-Ending action vuser_init.
-Running Vuser...
-Starting iteration 1.
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5511.xml
+VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
+VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2085 Wasted Time: 0,0013).
+Ending action VerifyCertificate_withSignedReport.
+Ending iteration 397.
+Starting iteration 398.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -12,12 +18,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_0.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5512.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,4459 Wasted Time: 0,0447).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,0838 Wasted Time: 0,0007).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -26,15 +32,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_0.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5512.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5550 Wasted Time: 0,0014).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2249 Wasted Time: 0,0010).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 1.
-Starting iteration 2.
+Ending iteration 398.
+Starting iteration 399.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -42,12 +48,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_1.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5513.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3680 Wasted Time: 0,0015).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,0702 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -56,15 +62,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_1.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5513.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5387 Wasted Time: 0,0007).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2157 Wasted Time: 0,0012).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 2.
-Starting iteration 3.
+Ending iteration 399.
+Starting iteration 400.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -72,12 +78,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_2.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5514.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3549 Wasted Time: 0,0008).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,0924 Wasted Time: 0,0007).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -86,15 +92,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_2.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5514.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5279 Wasted Time: 0,0015).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,1811 Wasted Time: 0,0010).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 3.
-Starting iteration 4.
+Ending iteration 400.
+Starting iteration 401.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -102,12 +108,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_3.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5515.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3959 Wasted Time: 0,0016).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,0850 Wasted Time: 0,0007).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -116,15 +122,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_3.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5515.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5440 Wasted Time: 0,0012).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2408 Wasted Time: 0,0011).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 4.
-Starting iteration 5.
+Ending iteration 401.
+Starting iteration 402.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -132,12 +138,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_4.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5516.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3907 Wasted Time: 0,0017).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1094 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -146,15 +152,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_4.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5516.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5690 Wasted Time: 0,0012).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2128 Wasted Time: 0,0014).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 5.
-Starting iteration 6.
+Ending iteration 402.
+Starting iteration 403.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -162,12 +168,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_5.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5517.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,4009 Wasted Time: 0,0017).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,0872 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -176,15 +182,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_5.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5517.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5109 Wasted Time: 0,0008).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2413 Wasted Time: 0,0023).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 6.
-Starting iteration 7.
+Ending iteration 403.
+Starting iteration 404.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -192,12 +198,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_6.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5518.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3677 Wasted Time: 0,0007).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1270 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -206,15 +212,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_6.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5518.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5237 Wasted Time: 0,0009).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2425 Wasted Time: 0,0013).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 7.
-Starting iteration 8.
+Ending iteration 404.
+Starting iteration 405.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -222,12 +228,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_7.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5519.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,4057 Wasted Time: 0,0014).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1380 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -236,15 +242,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_7.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5519.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5668 Wasted Time: 0,0013).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2786 Wasted Time: 0,0013).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 8.
-Starting iteration 9.
+Ending iteration 405.
+Starting iteration 406.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -252,12 +258,12 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_8.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5520.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 0,3769 Wasted Time: 0,0007).
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1198 Wasted Time: 0,0006).
 Ending action VerifyCertificate_simple.
 Starting action VerifyCertificate_withSignedReport.
 VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
@@ -266,15 +272,15 @@ VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[Msg
 VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_withSignedReport.c(7): G:\LR_DATA\certs/VerifyCertificate_withSignedReport_8.xml
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5520.xml
 VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
 VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
 VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
-VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 0,5630 Wasted Time: 0,0014).
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2920 Wasted Time: 0,0014).
 Ending action VerifyCertificate_withSignedReport.
-Ending iteration 9.
-Starting iteration 10.
+Ending iteration 406.
+Starting iteration 407.
 Starting action VerifyCertificate_simple.
 VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -282,17 +288,118 @@ VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-2
 VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
 VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCertificate_simple.c(7): G:\LR_DATA\certs/VerifyCertificate_simple_9.xml
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5521.xml
 VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
 VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
 VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
-VerifyCertificate_simple.c(24): Notify: Transaction "VerifyCertificate_simple" ended with a "Fail" status (Duration: 0,4207 Wasted Time: 0,0019).
-VerifyCertificate_simple.c(24): Notify: Transaction "VerifyCertificate_simple" has 0 error message(s).
-VerifyCertificate_simple.c(25): Error: error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCertificateResponse xmlns="http://esv.server.rt.ru"><VerifyCertificateResult><Code>15</Code><Description>Сертификат был выдан не аккредитованным УЦ</Description></VerifyCertificateResult></VerifyCertificateResponse></soap:Body></soap:Envelope>
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1359 Wasted Time: 0,0007).
+Ending action VerifyCertificate_simple.
+Starting action VerifyCertificate_withSignedReport.
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5521.xml
+VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
+VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,2688 Wasted Time: 0,0014).
+Ending action VerifyCertificate_withSignedReport.
+Ending iteration 407.
+Starting iteration 408.
+Starting action VerifyCertificate_simple.
+VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5522.xml
+VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
+VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1,1077 Wasted Time: 0,0006).
+Ending action VerifyCertificate_simple.
+Starting action VerifyCertificate_withSignedReport.
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5522.xml
+VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
+VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1.2664 Wasted Time: 0.0011).
+Ending action VerifyCertificate_withSignedReport.
+Ending iteration 408.
+Starting iteration 409.
+Starting action VerifyCertificate_simple.
+VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5523.xml
+VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
+VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1.2037 Wasted Time: 0.0006).
+Ending action VerifyCertificate_simple.
+Starting action VerifyCertificate_withSignedReport.
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5523.xml
+VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
+VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
+VerifyCertificate_withSignedReport.c(30): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Pass" status (Duration: 1,3410 Wasted Time: 0,0012).
+Ending action VerifyCertificate_withSignedReport.
+Ending iteration 409.
+Starting iteration 410.
+Starting action VerifyCertificate_simple.
+VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(7): F:\LR_DATA\certs/VerifyCertificate_simple_5524.xml
+VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
+VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
+VerifyCertificate_simple.c(30): Notify: Transaction "VerifyCertificate_simple" ended with a "Pass" status (Duration: 1.1255 Wasted Time: 0.0006).
+Ending action VerifyCertificate_simple.
+Starting action VerifyCertificate_withSignedReport.
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_withSignedReport.c(7): F:\LR_DATA\certs/VerifyCertificate_withSignedReport_5524.xml
+VerifyCertificate_withSignedReport.c(10): Use file: {VerifyCertificate_withSignedReport_file}
+VerifyCertificate_withSignedReport.c(12): Notify: Transaction "VerifyCertificate_withSignedReport" started.
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" started
+VerifyCertificate_withSignedReport.c(13): SOAP request "VerifyCertificate_withSignedReport" was successful
+VerifyCertificate_withSignedReport.c(22): Notify: Transaction "VerifyCertificate_withSignedReport" ended with a "Stop" status (Duration: 1,2217 Wasted Time: 0,0009).
+Abort was called from an action.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
-Warning: Vuser failed to terminate extension.

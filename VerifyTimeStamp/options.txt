@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\LR_SCRIPTS\VerifyTimeStamp
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\lr_scripts\verifytimestamp\\logfile.log
+f:\lr_scripts\verifytimestamp\\combined_VerifyTimeStamp.c
+f:\lr_scripts\verifytimestamp\\pre_cci.c

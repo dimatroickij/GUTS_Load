@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\guts_load\ESVLoad_50Kb
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\guts_load\esvload_50kb\\logfile.log
+f:\guts_load\esvload_50kb\\combined_ESVLoad_50Kb.c
+f:\guts_load\esvload_50kb\\pre_cci.c

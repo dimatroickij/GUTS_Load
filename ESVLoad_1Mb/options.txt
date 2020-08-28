@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\d.troickiy\Desktop\ГУЦ\Нагрузочные тесты\guts_load\ESVLoad_1Mb
+-IF:\guts_load\ESVLoad_1Mb
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_1mb\\logfile.log
-c:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_1mb\\combined_ESVLoad_1Mb.c
-c:\users\d.troickiy\desktop\гуц\нагрузочные тесты\guts_load\esvload_1mb\\pre_cci.c
+-ef:\guts_load\esvload_1mb\\logfile.log
+f:\guts_load\esvload_1mb\\combined_ESVLoad_1Mb.c
+f:\guts_load\esvload_1mb\\pre_cci.c

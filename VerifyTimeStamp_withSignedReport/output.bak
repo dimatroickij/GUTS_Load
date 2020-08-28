@@ -1,0 +1,24 @@
+Virtual User Script started at: 13.03.2020 9:42:45
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyTimeStamp_withSignedReport.
+VerifyTimeStamp_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyTimeStamp_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyTimeStamp_withSignedReport.c(7): F:\LR_DATA\timestamp/VerifyTimeStamp_withSignedReport_83.xml
+VerifyTimeStamp_withSignedReport.c(10): Use file: {VerifyTimeStamp_withSignedReport_file}
+VerifyTimeStamp_withSignedReport.c(12): Notify: Transaction "VerifyTimeStamp_withSignedReport" started.
+VerifyTimeStamp_withSignedReport.c(13): SOAP request "VerifyTimeStamp_withSignedReport" started
+VerifyTimeStamp_withSignedReport.c(13): SOAP request "VerifyTimeStamp_withSignedReport" was successful
+VerifyTimeStamp_withSignedReport.c(29): Notify: Transaction "VerifyTimeStamp_withSignedReport" ended with a "Pass" status (Duration: 0.2983 Wasted Time: 0.0468).
+Ending action VerifyTimeStamp_withSignedReport.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\proveCert\VerifyCertificateESV
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\provecert\verifycertificateesv\\logfile.log
+f:\provecert\verifycertificateesv\\combined_VerifyCertificateESV.c
+f:\provecert\verifycertificateesv\\pre_cci.c

@@ -1,0 +1,3 @@
+Error: Cannot open prm file: F:\LR_SCRIPTS\ESVLoad_10Kb\ESVLoad_1Mb.prm.
+Warning: Extension parameng.dll reports error -2 on call to function ExtPerProcessInitialize
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.
