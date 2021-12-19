@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IF:\proveCert\proveCert
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ef:\provecert\provecert\\logfile.log
-f:\provecert\provecert\\combined_proveCert.c
-f:\provecert\provecert\\pre_cci.c

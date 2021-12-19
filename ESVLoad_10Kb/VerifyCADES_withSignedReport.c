@@ -8,11 +8,8 @@ VerifyCADES_withSignedReport()
 	lr_read_file(lr_eval_string("{dataPath}/{VerifyCADES_withSignedReport_file}"), "request", 0);
 
 	lr_output_message("Use file: {VerifyCADES_withSignedReport_file}");
-<<<<<<< HEAD
 	
 	lr_continue_on_error(1);
-=======
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 	lr_start_transaction("VerifyCADES_withSignedReport");
 	soap_request("StepName=VerifyCADES_withSignedReport",
@@ -28,7 +25,6 @@ VerifyCADES_withSignedReport()
 	{
         lr_end_transaction("VerifyCADES_withSignedReport", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCADES_withSignedReport_response}, but got {result}"));
-<<<<<<< HEAD
 	}
 	else
 	{
@@ -36,11 +32,5 @@ VerifyCADES_withSignedReport()
 	}
     
     lr_continue_on_error(0);
-=======
-		return -1;
-	}
-
-    lr_end_transaction("VerifyCADES_withSignedReport", LR_PASS);
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	return 0;
 }

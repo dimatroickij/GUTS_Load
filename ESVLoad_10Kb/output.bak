@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 Virtual User Script started at: 11/15/2021 12:51:44
-=======
-Virtual User Script started at: 02.03.2020 16:34:48
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 Starting action vuser_init.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-<<<<<<< HEAD
 Starting action VerifyPAdES_withSignedReport.
 VerifyPAdES_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
 VerifyPAdES_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
@@ -23,18 +18,6 @@ VerifyPAdES_withSignedReport.c(13): SOAP request "VerifyPAdES_withSignedReporte"
 VerifyPAdES_withSignedReport.c(29): Notify: Transaction "VerifyPAdES_withSignedReport" ended with a "Pass" status (Duration: 6.4789 Wasted Time: 0.0710).
 Ending action VerifyPAdES_withSignedReport.
 Ending iteration 1.
-=======
-Starting action VerifyCMSSignature_simple.
-VerifyCMSSignature_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyCMSSignature_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyCMSSignature_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyCMSSignature_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyCMSSignature_simple.c(7): F:\LR_DATA\10/VerifyCMSSignature_simple_0.xml
-VerifyCMSSignature_simple.c(8): Error (-17948): Can not open file.
-Abort was called from an action.
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

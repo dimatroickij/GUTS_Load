@@ -1,8 +1,0 @@
-[vuser_init]
-SnapshotIndex=I1_vuser_init
-[VerifyTimeStamp_withSignedReport]
-SnapshotIndex=I1_VerifyTimeStamp_withSignedReport
-[vuser_end]
-SnapshotIndex=I1_vuser_end
-[VerifyTimeStamp_simple]
-SnapshotIndex=I1_VerifyTimeStamp_simple

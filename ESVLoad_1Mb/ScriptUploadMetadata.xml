@@ -45,28 +45,6 @@
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_1Mb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-<<<<<<< HEAD
-=======
-    <FileEntry Name="WSDL\" Filter="2" />
-    <FileEntry Name="102068677440.idx" Filter="1" />
-    <FileEntry Name="106362975440.idx" Filter="1" />
-    <FileEntry Name="11226626440.idx" Filter="1" />
-    <FileEntry Name="114154717440.idx" Filter="1" />
-    <FileEntry Name="116077734440.idx" Filter="1" />
-    <FileEntry Name="119669585440.idx" Filter="1" />
-    <FileEntry Name="125888191440.idx" Filter="1" />
-    <FileEntry Name="130029920440.idx" Filter="1" />
-    <FileEntry Name="151042532440.idx" Filter="1" />
-    <FileEntry Name="165282255440.idx" Filter="1" />
-    <FileEntry Name="229042023440.idx" Filter="1" />
-    <FileEntry Name="238237867440.idx" Filter="1" />
-    <FileEntry Name="239293917440.idx" Filter="1" />
-    <FileEntry Name="252906585440.idx" Filter="1" />
-    <FileEntry Name="262023883440.idx" Filter="1" />
-    <FileEntry Name="86271237440.idx" Filter="1" />
-    <FileEntry Name="93337200440.idx" Filter="1" />
-    <FileEntry Name="96498292440.idx" Filter="1" />
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -88,11 +66,5 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-<<<<<<< HEAD
-=======
-    <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
-    <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
   </GeneralFiles>
 </VugenScriptMetadata>

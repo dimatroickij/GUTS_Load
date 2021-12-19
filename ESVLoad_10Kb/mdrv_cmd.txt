@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 -usr "C:\LR_SCRIPTS\ESVLoad_10Kb\ESVLoad_10Kb.usr" -drv_log_file "C:\LR_SCRIPTS\ESVLoad_10Kb\mdrv.log" -qt_result_dir "C:\LR_SCRIPTS\ESVLoad_10Kb\result1" -extra_ext rtc_client -extra_ext vugdbg_ext -extra_ext NVReportExt -extra_ext HarExt -cci_elevel -msg_suffix_enable 0 -out "C:\LR_SCRIPTS\ESVLoad_10Kb\" -correlation_files -shunra_file "C:\LR_SCRIPTS\ESVLoad_10Kb\shunra.shunra" -shunra_port 8182 -param_non_working_days 6,7 -product_name vugen -pid 1048 -vugen_win 262844 -vugen_animate_delay 1 -param_log_timestamp_flag  0
-=======
--usr "F:\LR_SCRIPTS\ESVLoad_10Kb\ESVLoad_10Kb.usr" -drv_log_file "F:\LR_SCRIPTS\ESVLoad_10Kb\mdrv.log" -qt_result_dir "F:\LR_SCRIPTS\ESVLoad_10Kb\result1" -extra_ext rtc_client -extra_ext vugdbg_ext -extra_ext TransDataLoggerExt -extra_ext NVReportExt -extra_ext HarExt -cci_elevel -msg_suffix_enable 0 -out "F:\LR_SCRIPTS\ESVLoad_10Kb\" -correlation_files -shunra_file "F:\LR_SCRIPTS\ESVLoad_10Kb\shunra.shunra" -shunra_port 8182 -param_non_working_days 6,7 -product_name vugen -pid 576 -vugen_win 4325920 -vugen_animate_delay 1 -param_log_timestamp_flag  0
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3

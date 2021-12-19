@@ -53,15 +53,9 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-<<<<<<< HEAD
 MercIniTreeSons="VerifyXAdES_withSignedReport,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignature_simple,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXML_simple,VerifyXML_withSignedReport"
 Name="Run"
 RunLogicActionOrder="VerifyXAdES_withSignedReport,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignature_simple,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXML_simple,VerifyXML_withSignedReport"
-=======
-MercIniTreeSons="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
-Name="Run"
-RunLogicActionOrder="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 RunLogicActionType="VuserRun"
 RunLogicAfterPaceMax="90"
 RunLogicAfterPaceMin="60"
@@ -122,11 +116,7 @@ MercIniTreeSectionName="VerifyCMSSignature_simple"
 Name="VerifyCMSSignature_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
-<<<<<<< HEAD
 RunLogicObjectPct="7"
-=======
-RunLogicObjectPct="8"
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignature_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignature_withSignedReport"
@@ -161,11 +151,7 @@ MercIniTreeSectionName="VerifyXAdES_withSignedReport"
 Name="VerifyXAdES_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
-<<<<<<< HEAD
 RunLogicObjectPct="8"
-=======
-RunLogicObjectPct="7"
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyXML_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyXML_simple"

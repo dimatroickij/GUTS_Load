@@ -9,10 +9,7 @@ VerifyCMSSignature_withSignedReport()
 
 	lr_output_message("Use file: {VerifyCMSSignature_withSignedReport_file}");
 
-<<<<<<< HEAD
 	lr_continue_on_error(1);
-=======
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	lr_start_transaction("VerifyCMSSignature_withSignedReport");
 	soap_request("StepName=VerifyCMSSignature_withSignedReport",
 		"URL={URL}",
@@ -27,7 +24,6 @@ VerifyCMSSignature_withSignedReport()
 	{
         lr_end_transaction("VerifyCMSSignature_withSignedReport", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignature_withSignedReport_response}, but got {result}"));
-<<<<<<< HEAD
 	}
 	else
 	{
@@ -35,11 +31,5 @@ VerifyCMSSignature_withSignedReport()
 	}
 	
     lr_continue_on_error(0);
-=======
-		return -1;
-	}
-
-    lr_end_transaction("VerifyCMSSignature_withSignedReport", LR_PASS);
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	return 0;
 }

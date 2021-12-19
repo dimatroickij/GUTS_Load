@@ -1,6 +1,2 @@
 URL
-<<<<<<< HEAD
 http://10.215.0.25/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl
-=======
-http://guc-test-01-nginx-01.12.voskhod.local/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3

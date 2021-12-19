@@ -8,13 +8,9 @@ VerifyCMSSignatureDetached_withSignedReport()
 	lr_read_file(lr_eval_string("{dataPath}/{VerifyCMSSignatureDetached_withSignedReport_file}"), "request", 0);
 
 	lr_output_message("Use file: {VerifyCMSSignatureDetached_withSignedReport_file}");
-<<<<<<< HEAD
 	
 	lr_continue_on_error(1);
 	
-=======
-
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	lr_start_transaction("VerifyCMSSignatureDetached_withSignedReport");
 	soap_request("StepName=VerifyCMSSignatureDetached_withSignedReport",
 		"URL={URL}",
@@ -29,7 +25,6 @@ VerifyCMSSignatureDetached_withSignedReport()
 	{
         lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureDetached_withSignedReport_response}, but got {result}"));
-<<<<<<< HEAD
 	}
 	else
 	{
@@ -37,11 +32,5 @@ VerifyCMSSignatureDetached_withSignedReport()
 	}
     
     lr_continue_on_error(0);
-=======
-		return -1;
-	}
-
-    lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", LR_PASS);
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	return 0;
 }

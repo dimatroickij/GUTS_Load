@@ -9,11 +9,8 @@ VerifyCMSSignatureDetached_simple()
 
 	lr_output_message("Use file: {VerifyCMSSignatureDetached_simple_file}");
 
-<<<<<<< HEAD
 	lr_continue_on_error(1);
 	
-=======
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	lr_start_transaction("VerifyCMSSignatureDetached_simple");
 	soap_request("StepName=VerifyCMSSignatureDetached_simple",
 		"URL={URL}",
@@ -28,7 +25,6 @@ VerifyCMSSignatureDetached_simple()
 	{
         lr_end_transaction("VerifyCMSSignatureDetached_simple", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureDetached_simple_response}, but got {result}"));
-<<<<<<< HEAD
 	}
 	else
 	{
@@ -36,11 +32,5 @@ VerifyCMSSignatureDetached_simple()
 	}
     
     lr_continue_on_error(0);
-=======
-		return -1;
-	}
-
-    lr_end_transaction("VerifyCMSSignatureDetached_simple", LR_PASS);
->>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	return 0;
 }

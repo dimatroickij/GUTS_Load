@@ -1,8 +1,0 @@
-HTTP/1.1 200 OK
-Server: nginx/1.16.1
-Date: Fri, 13 Mar 2020 06:43:26 GMT
-Content-Type: text/xml;charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-X-Powered-By: Undertow/1
-
