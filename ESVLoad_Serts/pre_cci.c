@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 1 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c"
+=======
+# 1 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c"
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +966,11 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
+<<<<<<< HEAD
 # 1 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 1 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1134,11 @@ extern VTCERR2  lrvtc_noop();
 
 
 
+<<<<<<< HEAD
 # 2 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 2 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "globals.h" 1
 
@@ -2839,7 +2851,11 @@ void
  
 
 
+<<<<<<< HEAD
 # 3 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 3 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 
 # 1 "vuser_init.c" 1
@@ -2847,7 +2863,11 @@ vuser_init()
 {
 	return 0;
 }
+<<<<<<< HEAD
 # 5 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 5 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCertificate_simple.c" 1
 VerifyCertificate_simple()
@@ -2882,12 +2902,55 @@ VerifyCertificate_simple()
     lr_end_transaction("VerifyCertificate_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 6 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 6 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+
+# 1 "VerifyCertificate_withSignedReport.c" 1
+VerifyCertificate_withSignedReport()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyCertificate_withSignedReport_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyCertificate_withSignedReport_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyCertificate_withSignedReport_file}");
+
+	lr_start_transaction("VerifyCertificate_withSignedReport");
+	soap_request("StepName=VerifyCertificate_withSignedReport",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyCertificate_withSignedReport_response}"))==0)
+	{
+        lr_end_transaction("VerifyCertificate_withSignedReport", 1);
+		lr_error_message( lr_eval_string("error: expected contains {VerifyCertificate_withSignedReport_response}, but got {result}"));
+		return -1;
+		 
+	}
+
+    lr_end_transaction("VerifyCertificate_withSignedReport", 0);
+	return 0;
+}
+# 7 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
+<<<<<<< HEAD
 # 7 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+=======
+# 8 "f:\\guts_load\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 

@@ -16,6 +16,11 @@
     <FileEntry Name="VerifyCADES_withSignedReport.c" Filter="2" />
     <FileEntry Name="VerifyXAdES_simple.c" Filter="2" />
     <FileEntry Name="VerifyXAdES_withSignedReport.c" Filter="2" />
+<<<<<<< HEAD
+=======
+    <FileEntry Name="VerifyWSS_simple.c" Filter="2" />
+    <FileEntry Name="VerifyWSS_withSignedReport.c" Filter="2" />
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
     <FileEntry Name="VerifyXML_simple.c" Filter="2" />
     <FileEntry Name="VerifyXML_withSignedReport.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
@@ -26,6 +31,7 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="ESVLoad_1Mb.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+<<<<<<< HEAD
     <FileEntry Name="VerifyCMSSignature_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCMSSignatureDetached_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCADES_simple.csv" Filter="2" />
@@ -42,10 +48,13 @@
     <FileEntry Name="VerifyXAdES_simple.csv" Filter="2" />
     <FileEntry Name="VerifyXML_withSignedReport.csv" Filter="2" />
     <FileEntry Name="dataPath.dat" Filter="2" />
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_10Kb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="WSDL\" Filter="2" />
+<<<<<<< HEAD
     <FileEntry Name="10211860440.idx" Filter="1" />
     <FileEntry Name="1021186044_2gu.701.idx" Filter="1" />
     <FileEntry Name="1021186044_7FM.749.idx" Filter="1" />
@@ -234,10 +243,13 @@
     <FileEntry Name="9916060844_Xzy.359.idx" Filter="1" />
     <FileEntry Name="9916060844_Y2t.693.idx" Filter="1" />
     <FileEntry Name="9916060844_ySP.719.idx" Filter="1" />
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
+<<<<<<< HEAD
     <FileEntry Name="ESVLoad_10Kb.c.pickle" Filter="1" />
     <FileEntry Name="ESVLoad_10Kb.ci" Filter="1" />
     <FileEntry Name="ESVLoad_10Kb.sdf" Filter="1" />
@@ -256,10 +268,45 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+=======
+    <FileEntry Name="dataPath.dat" Filter="1" />
+    <FileEntry Name="ESVLoad_10Kb.c.pickle" Filter="1" />
+    <FileEntry Name="ESVLoad_10Kb.ci" Filter="1" />
+    <FileEntry Name="ESVLoad_10Kb.sdf" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="report_view.xsl" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="URL.dat" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="VerifyCADES_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyCADES_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignatureByHash_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignatureByHash_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignatureDetached_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignatureDetached_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignature_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyCMSSignature_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyPAdES_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyPAdES_withSignedReport.csv" Filter="1" />
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
     <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
     <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
     <FileEntry Name="VerifyWSS_simple.csv" Filter="1" />
     <FileEntry Name="VerifyWSS_withSignedReport.csv" Filter="1" />
+<<<<<<< HEAD
     <FileEntry Name="result1\" Filter="1" />
+=======
+    <FileEntry Name="VerifyXAdES_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyXAdES_withSignedReport.csv" Filter="1" />
+    <FileEntry Name="VerifyXML_simple.csv" Filter="1" />
+    <FileEntry Name="VerifyXML_withSignedReport.csv" Filter="1" />
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
   </GeneralFiles>
 </VugenScriptMetadata>

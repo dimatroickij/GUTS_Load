@@ -2,8 +2,16 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
+<<<<<<< HEAD
 -IC:\LR_SCRIPTS\ESVLoad_50Kb
 -IC:\Program Files (x86)\HPE\LoadRunner\include
 -ec:\lr_scripts\esvload_50kb\\logfile.log
 c:\lr_scripts\esvload_50kb\\combined_ESVLoad_50Kb.c
 c:\lr_scripts\esvload_50kb\\pre_cci.c
+=======
+-IF:\guts_load\ESVLoad_50Kb
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\guts_load\esvload_50kb\\logfile.log
+f:\guts_load\esvload_50kb\\combined_ESVLoad_50Kb.c
+f:\guts_load\esvload_50kb\\pre_cci.c
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3

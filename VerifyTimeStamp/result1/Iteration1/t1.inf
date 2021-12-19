@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/xml
+StepName=Service: Cleanup Cookies
+Total=1
+FileName1=t1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=0
+URL1=http://10.1.54.82/app/scc/esv/SignatureTool/SignatureToolSoap11?wsdl

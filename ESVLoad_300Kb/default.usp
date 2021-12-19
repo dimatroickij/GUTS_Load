@@ -1,7 +1,11 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
+<<<<<<< HEAD
 Profile Actions name=vuser_init,VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport,vuser_end
+=======
+Profile Actions name=vuser_init,VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyWSS_simple,VerifyWSS_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport,vuser_end
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,6 +57,7 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
+<<<<<<< HEAD
 MercIniTreeSons="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
 Name="Run"
 RunLogicActionOrder="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
@@ -61,101 +66,164 @@ RunLogicNumOfIterations="5"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Random"
 isFirstTimeRandom="False"
+=======
+MercIniTreeSons="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyWSS_simple,VerifyWSS_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
+Name="Run"
+RunLogicActionOrder="VerifyCMSSignature_simple,VerifyCMSSignature_withSignedReport,VerifyCMSSignatureByHash_simple,VerifyCMSSignatureByHash_withSignedReport,VerifyCMSSignatureDetached_simple,VerifyCMSSignatureDetached_withSignedReport,VerifyPAdES_simple,VerifyPAdES_withSignedReport,VerifyCADES_simple,VerifyCADES_withSignedReport,VerifyXAdES_simple,VerifyXAdES_withSignedReport,VerifyWSS_simple,VerifyWSS_withSignedReport,VerifyXML_simple,VerifyXML_withSignedReport"
+RunLogicActionType="VuserRun"
+RunLogicNumOfIterations="1"
+RunLogicObjectKind="Group"
+RunLogicRunMode="Sequential"
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCADES_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCADES_simple"
 Name="VerifyCADES_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCADES_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCADES_withSignedReport"
 Name="VerifyCADES_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignatureByHash_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignatureByHash_simple"
 Name="VerifyCMSSignatureByHash_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignatureByHash_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignatureByHash_withSignedReport"
 Name="VerifyCMSSignatureByHash_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignatureDetached_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignatureDetached_simple"
 Name="VerifyCMSSignatureDetached_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignatureDetached_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignatureDetached_withSignedReport"
 Name="VerifyCMSSignatureDetached_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignature_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignature_simple"
 Name="VerifyCMSSignature_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="8"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyCMSSignature_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyCMSSignature_withSignedReport"
 Name="VerifyCMSSignature_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="8"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyPAdES_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyPAdES_simple"
 Name="VerifyPAdES_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="6"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyPAdES_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyPAdES_withSignedReport"
 Name="VerifyPAdES_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="6"
+=======
+[RunLogicRunRoot:VerifyWSS_simple]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="VerifyWSS_simple"
+Name="VerifyWSS_simple"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:VerifyWSS_withSignedReport]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="VerifyWSS_withSignedReport"
+Name="VerifyWSS_withSignedReport"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyXAdES_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyXAdES_simple"
 Name="VerifyXAdES_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyXAdES_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyXAdES_withSignedReport"
 Name="VerifyXAdES_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="7"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyXML_simple]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyXML_simple"
 Name="VerifyXML_simple"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="8"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [RunLogicRunRoot:VerifyXML_withSignedReport]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="VerifyXML_withSignedReport"
 Name="VerifyXML_withSignedReport"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"
+<<<<<<< HEAD
 RunLogicObjectPct="8"
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3

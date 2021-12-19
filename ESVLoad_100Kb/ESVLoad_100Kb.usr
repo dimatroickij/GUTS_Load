@@ -22,7 +22,11 @@ LastCodeGenerationVer=
 DisableRegenerate=0
 Encoding=
 Description=
+<<<<<<< HEAD
 ScriptLocale=en-US
+=======
+ScriptLocale=ru-RU
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [Actions]
 vuser_init=vuser_init.c
 VerifyCMSSignature_simple=VerifyCMSSignature_simple.c
@@ -37,6 +41,11 @@ VerifyCADES_simple=VerifyCADES_simple.c
 VerifyCADES_withSignedReport=VerifyCADES_withSignedReport.c
 VerifyXAdES_simple=VerifyXAdES_simple.c
 VerifyXAdES_withSignedReport=VerifyXAdES_withSignedReport.c
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=VerifyWSS_simple.c
+VerifyWSS_withSignedReport=VerifyWSS_withSignedReport.c
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=VerifyXML_simple.c
 VerifyXML_withSignedReport=VerifyXML_withSignedReport.c
 vuser_end=vuser_end.c
@@ -62,6 +71,11 @@ VerifyCADES_simple=1
 VerifyCADES_withSignedReport=1
 VerifyXAdES_simple=1
 VerifyXAdES_withSignedReport=1
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=1
+VerifyWSS_withSignedReport=1
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=1
 VerifyXML_withSignedReport=1
 vuser_end=0
@@ -79,6 +93,11 @@ VerifyCADES_simple=0
 VerifyCADES_withSignedReport=0
 VerifyXAdES_simple=0
 VerifyXAdES_withSignedReport=0
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=0
+VerifyWSS_withSignedReport=0
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=0
 VerifyXML_withSignedReport=0
 vuser_end=0
@@ -96,6 +115,11 @@ VerifyCADES_simple=1
 VerifyCADES_withSignedReport=1
 VerifyXAdES_simple=1
 VerifyXAdES_withSignedReport=1
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=1
+VerifyWSS_withSignedReport=1
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=1
 VerifyXML_withSignedReport=1
 vuser_end=1
@@ -113,11 +137,20 @@ VerifyCADES_simple=cci
 VerifyCADES_withSignedReport=cci
 VerifyXAdES_simple=cci
 VerifyXAdES_withSignedReport=cci
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=cci
+VerifyWSS_withSignedReport=cci
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=cci
 VerifyXML_withSignedReport=cci
 vuser_end=cci
 [TransactionsOrder]
+<<<<<<< HEAD
 Order="VerifyCMSSignature_simple__*delimiter*__VerifyCMSSignature_withSignedReport__*delimiter*__VerifyCMSSignatureByHash_simple__*delimiter*__VerifyCMSSignatureDetached_simple__*delimiter*__VerifyCMSSignatureByHash_withSignedReport__*delimiter*__VerifyCMSSignatureDetached_withSignedReport__*delimiter*__VerifyPAdES_simple__*delimiter*__VerifyPAdES_withSignedReport__*delimiter*__VerifyCADES_simple__*delimiter*__VerifyCADES_withSignedReport__*delimiter*__VerifyXAdES_simple__*delimiter*__VerifyXAdES_withSignedReport__*delimiter*__VerifyXML_simple__*delimiter*__VerifyXML_withSignedReport"
+=======
+Order="VerifyCMSSignature_simple__*delimiter*__VerifyCMSSignature_withSignedReport__*delimiter*__VerifyCMSSignatureByHash_simple__*delimiter*__VerifyCMSSignatureDetached_simple__*delimiter*__VerifyCMSSignatureByHash_withSignedReport__*delimiter*__VerifyCMSSignatureDetached_withSignedReport__*delimiter*__VerifyPAdES_simple__*delimiter*__VerifyPAdES_withSignedReport__*delimiter*__VerifyCADES_simple__*delimiter*__VerifyCADES_withSignedReport__*delimiter*__VerifyXAdES_simple__*delimiter*__VerifyXAdES_withSignedReport__*delimiter*__VerifyWSS_simple__*delimiter*__VerifyWSS_withSignedReport__*delimiter*__VerifyXML_simple__*delimiter*__VerifyXML_withSignedReport"
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -136,5 +169,10 @@ VerifyCADES_simple=
 VerifyCADES_withSignedReport=
 VerifyXAdES_simple=
 VerifyXAdES_withSignedReport=
+<<<<<<< HEAD
+=======
+VerifyWSS_simple=
+VerifyWSS_withSignedReport=
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 VerifyXML_simple=
 VerifyXML_withSignedReport=

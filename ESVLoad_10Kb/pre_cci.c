@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 1 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c"
+=======
+# 1 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c"
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +966,11 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
+<<<<<<< HEAD
 # 1 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 1 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1134,11 @@ extern VTCERR2  lrvtc_noop();
 
 
 
+<<<<<<< HEAD
 # 2 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 2 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "globals.h" 1
 
@@ -2839,7 +2851,11 @@ void
  
 
 
+<<<<<<< HEAD
 # 3 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 3 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 
 # 1 "vuser_init.c" 1
@@ -2847,7 +2863,11 @@ vuser_init()
 {
 	return 0;
 }
+<<<<<<< HEAD
 # 5 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 5 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignature_simple.c" 1
 VerifyCMSSignature_simple()
@@ -2882,7 +2902,11 @@ VerifyCMSSignature_simple()
     lr_end_transaction("VerifyCMSSignature_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 6 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 6 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignature_withSignedReport.c" 1
 VerifyCMSSignature_withSignedReport()
@@ -2916,7 +2940,11 @@ VerifyCMSSignature_withSignedReport()
     lr_end_transaction("VerifyCMSSignature_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 7 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 7 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignatureByHash_simple.c" 1
 VerifyCMSSignatureByHash_simple()
@@ -2950,7 +2978,11 @@ VerifyCMSSignatureByHash_simple()
     lr_end_transaction("VerifyCMSSignatureByHash_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 8 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 8 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignatureDetached_simple.c" 1
 VerifyCMSSignatureDetached_simple()
@@ -2984,7 +3016,11 @@ VerifyCMSSignatureDetached_simple()
     lr_end_transaction("VerifyCMSSignatureDetached_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 9 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 9 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignatureByHash_withSignedReport.c" 1
 VerifyCMSSignatureByHash_withSignedReport()
@@ -3018,7 +3054,11 @@ VerifyCMSSignatureByHash_withSignedReport()
     lr_end_transaction("VerifyCMSSignatureByHash_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 10 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 10 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCMSSignatureDetached_withSignedReport.c" 1
 VerifyCMSSignatureDetached_withSignedReport()
@@ -3052,7 +3092,11 @@ VerifyCMSSignatureDetached_withSignedReport()
     lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 11 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 11 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyPAdES_simple.c" 1
 VerifyPAdES_simple()
@@ -3086,7 +3130,11 @@ VerifyPAdES_simple()
     lr_end_transaction("VerifyPAdES_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 12 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 12 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyPAdES_withSignedReport.c" 1
 VerifyPAdES_withSignedReport()
@@ -3120,7 +3168,11 @@ VerifyPAdES_withSignedReport()
     lr_end_transaction("VerifyPAdES_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 13 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 13 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCADES_simple.c" 1
 VerifyCADES_simple()
@@ -3154,7 +3206,11 @@ VerifyCADES_simple()
     lr_end_transaction("VerifyCADES_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 14 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 14 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyCADES_withSignedReport.c" 1
 VerifyCADES_withSignedReport()
@@ -3188,7 +3244,11 @@ VerifyCADES_withSignedReport()
     lr_end_transaction("VerifyCADES_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 15 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 15 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyXAdES_simple.c" 1
 VerifyXAdES_simple()
@@ -3222,7 +3282,11 @@ VerifyXAdES_simple()
     lr_end_transaction("VerifyXAdES_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 16 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 16 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyXAdES_withSignedReport.c" 1
 VerifyXAdES_withSignedReport()
@@ -3256,7 +3320,79 @@ VerifyXAdES_withSignedReport()
     lr_end_transaction("VerifyXAdES_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 17 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 17 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+
+# 1 "VerifyWSS_simple.c" 1
+VerifyWSS_simple()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyWSS_simple_file}");
+
+	lr_start_transaction("VerifyWSS_simple");
+	soap_request("StepName=VerifyWSS_simple",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_simple_response}"))==0)
+	{
+        lr_end_transaction("VerifyWSS_simple", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_simple_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyWSS_simple", 0);
+	return 0;
+}
+# 18 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+
+# 1 "VerifyWSS_withSignedReport.c" 1
+VerifyWSS_withSignedReport()
+{
+	web_cache_cleanup();
+	web_cleanup_auto_headers();
+	web_cleanup_cookies();
+
+	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"));
+	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"), "request", 0);
+
+	lr_output_message("Use file: {VerifyWSS_withSignedReporte_file}");
+
+	lr_start_transaction("VerifyWSS_withSignedReport");
+	soap_request("StepName=VerifyWSS_withSignedReport",
+		"URL={URL}",
+		"SOAPEnvelope="
+			"{request}",
+		"ExpectedResponse=AnySoap",
+		"ResponseParam=result",
+		"LAST");
+
+	 
+	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_withSignedReport_response}"))==0)
+	{
+        lr_end_transaction("VerifyWSS_withSignedReport", 1);
+		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_withSignedReport_response}, but got {result}"));
+		return -1;
+	}
+
+    lr_end_transaction("VerifyWSS_withSignedReport", 0);
+	return 0;
+}
+# 19 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyXML_simple.c" 1
 VerifyXML_simple()
@@ -3290,7 +3426,11 @@ VerifyXML_simple()
     lr_end_transaction("VerifyXML_simple", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 18 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 20 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "VerifyXML_withSignedReport.c" 1
 VerifyXML_withSignedReport()
@@ -3324,12 +3464,20 @@ VerifyXML_withSignedReport()
     lr_end_transaction("VerifyXML_withSignedReport", 0);
 	return 0;
 }
+<<<<<<< HEAD
 # 19 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 21 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
+<<<<<<< HEAD
 # 20 "c:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+=======
+# 22 "f:\\lr_scripts\\esvload_10kb\\\\combined_ESVLoad_10Kb.c" 2
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 

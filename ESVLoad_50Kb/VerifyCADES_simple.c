@@ -9,8 +9,11 @@ VerifyCADES_simple()
 
 	lr_output_message("Use file: {VerifyCADES_simple_file}");
 
+<<<<<<< HEAD
 	lr_continue_on_error(1);
 	
+=======
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	lr_start_transaction("VerifyCADES_simple");
 	soap_request("StepName=VerifyCADES_simple",
 		"URL={URL}",
@@ -25,11 +28,18 @@ VerifyCADES_simple()
 	{
         lr_end_transaction("VerifyCADES_simple", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains VerifyCADES_simple_response}, but got {result}"));
+<<<<<<< HEAD
 	}
 	else
 	{
 		lr_end_transaction("VerifyCADES_simple", LR_PASS);
 	}
     lr_continue_on_error(0);
+=======
+		return -1;
+	}
+
+    lr_end_transaction("VerifyCADES_simple", LR_PASS);
+>>>>>>> 52c378a8d9926d3bf02036ec7754c17fc5632fa3
 	return 0;
 }

@@ -1,0 +1,26 @@
+Virtual User Script started at: 02.03.2020 16:38:35
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyCMSSignature_simple.
+VerifyCMSSignature_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_simple.c(7): F:\LR_DATA\5120/VerifyCMSSignature_simple_63.xml
+VerifyCMSSignature_simple.c(10): Use file: {VerifyCMSSignature_simple_file}
+VerifyCMSSignature_simple.c(12): Notify: Transaction "VerifyCMSSignature_simple" started.
+VerifyCMSSignature_simple.c(14): SOAP request "VerifyCMSSignature_simple" started
+VerifyCMSSignature_simple.c(14): SOAP request "VerifyCMSSignature_simple" was successful
+VerifyCMSSignature_simple.c(25): Notify: Transaction "VerifyCMSSignature_simple" ended with a "Fail" status (Duration: 3,0252 Wasted Time: 0,1666).
+VerifyCMSSignature_simple.c(25): Notify: Transaction "VerifyCMSSignature_simple" has 0 error message(s).
+VerifyCMSSignature_simple.c(26): error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCMSSignatureResponse xmlns="http://esv.server.rt.ru"><VerifyCMSSignatureResult><Code>1</Code><Description>Внутренняя ошибка сервиса (javax.ws.rs.ProcessingException: RESTEASY004655: Unable to invoke request)</Description></VerifyCMSSignatureResult></VerifyCMSSignatureResponse></soap:Body></soap:Envelope>
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.
