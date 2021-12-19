@@ -9,6 +9,8 @@ VerifyXML_withSignedReport()
 
 	lr_output_message("Use file: {VerifyXML_withSignedReport_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXML_withSignedReport");
 	soap_request("StepName=VerifyXML_withSignedReport",
 		"URL={URL}",
@@ -23,9 +25,11 @@ VerifyXML_withSignedReport()
 	{
         lr_end_transaction("VerifyXML_withSignedReport", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXML_withSignedReport", LR_PASS);
+	else
+	{
+		lr_end_transaction("VerifyXML_withSignedReport", LR_PASS);
+	}
+    lr_continue_on_error(0);
 	return 0;
 }

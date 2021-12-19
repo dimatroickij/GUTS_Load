@@ -9,6 +9,8 @@ VerifyPAdES_simple()
 
 	lr_output_message("Use file: {VerifyPAdES_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyPAdES_simple");
 	soap_request("StepName=VerifyPAdES_simple",
 		"URL={URL}",
@@ -23,9 +25,12 @@ VerifyPAdES_simple()
 	{
         lr_end_transaction("VerifyPAdES_simple", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains VerifyPAdES_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyPAdES_simple", LR_PASS);
+	else
+	{
+		lr_end_transaction("VerifyPAdES_simple", LR_PASS);
+	}
+	
+    lr_continue_on_error(1);
 	return 0;
 }

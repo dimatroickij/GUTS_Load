@@ -9,6 +9,7 @@ VerifyCertificate_simple()
 
 	lr_output_message("Use file: {VerifyCertificate_simple_file}");
 
+	lr_continue_on_error(1);
 	lr_start_transaction("VerifyCertificate_simple");
 	soap_request("StepName=VerifyCertificate_simple",
 		"URL={URL}",
@@ -22,11 +23,13 @@ VerifyCertificate_simple()
 	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyCertificate_simple_response}"))==NULL)
 	{
         lr_end_transaction("VerifyCertificate_simple", LR_FAIL);
-		lr_error_message( lr_eval_string("error: expected contains {VerifyCertificate_simple_response}, but got {result}"));
-		return -1;
-		//return 0;
+		lr_error_message( lr_eval_string("error {VerifyCertificate_simple_file}: expected contains {VerifyCertificate_simple_response}, but got {result}"));
 	}
-
-    lr_end_transaction("VerifyCertificate_simple", LR_PASS);
+	else
+	{
+		lr_end_transaction("VerifyCertificate_simple", LR_PASS);
+	}
+	
+	lr_continue_on_error(0);
 	return 0;
 }

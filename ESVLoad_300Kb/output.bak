@@ -1,0 +1,24 @@
+Virtual User Script started at: 9/3/2020 1:29:28 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyWSS_simple.
+VerifyWSS_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyWSS_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyWSS_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyWSS_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyWSS_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyWSS_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyWSS_simple.c(7): C:\LR_DATA\300k/VerifyWSS_simple_0.xml
+VerifyWSS_simple.c(10): Use file: {VerifyWSS_simple_file}
+VerifyWSS_simple.c(12): Notify: Transaction "VerifyWSS_simple" started.
+VerifyWSS_simple.c(13): SOAP request "VerifyWSS_simple" started
+VerifyWSS_simple.c(13): SOAP request "VerifyWSS_simple" was successful
+VerifyWSS_simple.c(24): Notify: Transaction "VerifyWSS_simple" ended with a "Fail" status (Duration: 3.8150 Wasted Time: 0.0392).
+VerifyWSS_simple.c(24): Notify: Transaction "VerifyWSS_simple" has 0 error message(s).
+VerifyWSS_simple.c(25): error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyWSSSignatureResponse xmlns="http://esv.server.rt.ru"><VerifyWSSSignatureResult><Code>1</Code></VerifyWSSSignatureResult></VerifyWSSSignatureResponse></soap:Body></soap:Envelope>
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

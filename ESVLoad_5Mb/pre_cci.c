@@ -1,4 +1,4 @@
-# 1 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c"
+# 1 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 1 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 2 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "globals.h" 1
 
@@ -2839,7 +2839,7 @@ void
  
 
 
-# 3 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 3 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 
 # 1 "vuser_init.c" 1
@@ -2847,7 +2847,7 @@ vuser_init()
 {
 	return 0;
 }
-# 5 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 5 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignature_simple.c" 1
 VerifyCMSSignature_simple()
@@ -2882,7 +2882,7 @@ VerifyCMSSignature_simple()
     lr_end_transaction("VerifyCMSSignature_simple", 0);
 	return 0;
 }
-# 6 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 6 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignature_withSignedReport.c" 1
 VerifyCMSSignature_withSignedReport()
@@ -2916,7 +2916,7 @@ VerifyCMSSignature_withSignedReport()
     lr_end_transaction("VerifyCMSSignature_withSignedReport", 0);
 	return 0;
 }
-# 7 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 7 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignatureByHash_simple.c" 1
 VerifyCMSSignatureByHash_simple()
@@ -2950,7 +2950,7 @@ VerifyCMSSignatureByHash_simple()
     lr_end_transaction("VerifyCMSSignatureByHash_simple", 0);
 	return 0;
 }
-# 8 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 8 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignatureByHash_withSignedReport.c" 1
 VerifyCMSSignatureByHash_withSignedReport()
@@ -2984,7 +2984,7 @@ VerifyCMSSignatureByHash_withSignedReport()
     lr_end_transaction("VerifyCMSSignatureByHash_withSignedReport", 0);
 	return 0;
 }
-# 9 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 9 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignatureDetached_simple.c" 1
 VerifyCMSSignatureDetached_simple()
@@ -3018,7 +3018,7 @@ VerifyCMSSignatureDetached_simple()
     lr_end_transaction("VerifyCMSSignatureDetached_simple", 0);
 	return 0;
 }
-# 10 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 10 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCMSSignatureDetached_withSignedReport.c" 1
 VerifyCMSSignatureDetached_withSignedReport()
@@ -3052,7 +3052,7 @@ VerifyCMSSignatureDetached_withSignedReport()
     lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", 0);
 	return 0;
 }
-# 11 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 11 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyPAdES_simple.c" 1
 VerifyPAdES_simple()
@@ -3086,7 +3086,7 @@ VerifyPAdES_simple()
     lr_end_transaction("VerifyPAdES_simple", 0);
 	return 0;
 }
-# 12 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 12 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyPAdES_withSignedReport.c" 1
 VerifyPAdES_withSignedReport()
@@ -3120,7 +3120,7 @@ VerifyPAdES_withSignedReport()
     lr_end_transaction("VerifyPAdES_withSignedReport", 0);
 	return 0;
 }
-# 13 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 13 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCADES_simple.c" 1
 VerifyCADES_simple()
@@ -3154,7 +3154,7 @@ VerifyCADES_simple()
     lr_end_transaction("VerifyCADES_simple", 0);
 	return 0;
 }
-# 14 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 14 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyCADES_withSignedReport.c" 1
 VerifyCADES_withSignedReport()
@@ -3188,7 +3188,7 @@ VerifyCADES_withSignedReport()
     lr_end_transaction("VerifyCADES_withSignedReport", 0);
 	return 0;
 }
-# 15 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 15 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyXAdES_simple.c" 1
 VerifyXAdES_simple()
@@ -3222,7 +3222,7 @@ VerifyXAdES_simple()
     lr_end_transaction("VerifyXAdES_simple", 0);
 	return 0;
 }
-# 16 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 16 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyXAdES_withSignedReport.c" 1
 VerifyXAdES_withSignedReport()
@@ -3256,76 +3256,7 @@ VerifyXAdES_withSignedReport()
     lr_end_transaction("VerifyXAdES_withSignedReport", 0);
 	return 0;
 }
-# 17 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
-
-# 1 "VerifyWSS_simple.c" 1
-VerifyWSS_simple()
-{
-	web_cache_cleanup();
-	web_cleanup_auto_headers();
-	web_cleanup_cookies();
-
-	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"));
-	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_simple_file}"), "request", 0);
-
-	lr_output_message("Use file: {VerifyWSS_simple_file}");
-
-	lr_start_transaction("VerifyWSS_simple");
-	soap_request("StepName=VerifyWSS_simple",
-		"URL={URL}",
-		"SOAPEnvelope="
-			"{request}",
-		"ExpectedResponse=AnySoap",
-		"ResponseParam=result",
-		"LAST");
-
-	 
-	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_simple_response}"))==0)
-	{
-        lr_end_transaction("VerifyWSS_simple", 1);
-		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_simple_response}, but got {result}"));
-		return -1;
-	}
-
-    lr_end_transaction("VerifyWSS_simple", 0);
-	return 0;
-}
-# 18 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
-
-# 1 "VerifyWSS_withSignedReport.c" 1
-VerifyWSS_withSignedReport()
-{
-
-	web_cache_cleanup();
-	web_cleanup_auto_headers();
-	web_cleanup_cookies();
-
-	lr_output_message(	lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"));
-	lr_read_file(lr_eval_string("{dataPath}/{VerifyWSS_withSignedReport_file}"), "request", 0);
-
-	lr_output_message("Use file: {VerifyWSS_withSignedReporte_file}");
-
-	lr_start_transaction("VerifyWSS_withSignedReport");
-	soap_request("StepName=VerifyWSS_withSignedReport",
-		"URL={URL}",
-		"SOAPEnvelope="
-			"{request}",
-		"ExpectedResponse=AnySoap",
-		"ResponseParam=result",
-		"LAST");
-
-	 
-	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyWSS_withSignedReport_response}"))==0)
-	{
-        lr_end_transaction("VerifyWSS_withSignedReport", 1);
-		lr_output_message( lr_eval_string("error: expected contains {VerifyWSS_withSignedReport_response}, but got {result}"));
-		return -1;
-	}
-
-    lr_end_transaction("VerifyWSS_withSignedReport", 0);
-	return 0;
-}
-# 19 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 17 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyXML_simple.c" 1
 VerifyXML_simple()
@@ -3359,7 +3290,7 @@ VerifyXML_simple()
     lr_end_transaction("VerifyXML_simple", 0);
 	return 0;
 }
-# 20 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 18 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "VerifyXML_withSignedReport.c" 1
 VerifyXML_withSignedReport()
@@ -3393,12 +3324,12 @@ VerifyXML_withSignedReport()
     lr_end_transaction("VerifyXML_withSignedReport", 0);
 	return 0;
 }
-# 21 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 19 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 22 "c:\\users\\d.troickiy\\desktop\\\343\363\366\\\355\340\343\360\363\347\356\367\355\373\345 \362\345\361\362\373\\guts_load\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
+# 20 "c:\\lr_scripts\\esvload_5mb\\\\combined_ESVLoad_5Mb.c" 2
 

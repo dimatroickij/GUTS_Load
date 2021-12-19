@@ -1,0 +1,24 @@
+Virtual User Script started at: 9/3/2020 1:30:05 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyCMSSignatureByHash_withSignedReport.
+VerifyCMSSignatureByHash_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(7): C:\LR_DATA\50k/VerifyCMSSignatureByHash_withSignedReport_95.xml
+VerifyCMSSignatureByHash_withSignedReport.c(10): Use file: {VerifyCMSSignatureByHash_withSignedReport_file}
+VerifyCMSSignatureByHash_withSignedReport.c(12): Notify: Transaction "VerifyCMSSignatureByHash_withSignedReport" started.
+VerifyCMSSignatureByHash_withSignedReport.c(13): SOAP request "VerifyCMSSignatureByHash_withSignedReport" started
+VerifyCMSSignatureByHash_withSignedReport.c(13): SOAP request "VerifyCMSSignatureByHash_withSignedReport" was successful
+VerifyCMSSignatureByHash_withSignedReport.c(24): Notify: Transaction "VerifyCMSSignatureByHash_withSignedReport" ended with a "Fail" status (Duration: 2.1799 Wasted Time: 0.0384).
+VerifyCMSSignatureByHash_withSignedReport.c(24): Notify: Transaction "VerifyCMSSignatureByHash_withSignedReport" has 0 error message(s).
+VerifyCMSSignatureByHash_withSignedReport.c(25): error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCMSSignatureByHashWithSignedReportResponse xmlns="http://esv.server.rt.ru"><VerifyCMSSignatureByHashWithSignedReportResult><Code>1</Code></VerifyCMSSignatureByHashWithSignedReportResult></VerifyCMSSignatureByHashWithSignedReportResponse></soap:Body></soap:Envelope>
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

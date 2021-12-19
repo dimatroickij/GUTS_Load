@@ -1,1 +1,0 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyWSSSignatureResponse xmlns="http://esv.server.rt.ru"><VerifyWSSSignatureResult><Code>0</Code><Description>Электронная подпись действительна</Description></VerifyWSSSignatureResult></VerifyWSSSignatureResponse></soap:Body></soap:Envelope>

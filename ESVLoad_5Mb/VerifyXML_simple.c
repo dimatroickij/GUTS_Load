@@ -9,6 +9,8 @@ VerifyXML_simple()
 
 	lr_output_message("Use file: {VerifyXML_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXML_simple");
 	soap_request("StepName=VerifyXML_simple",
 		"URL={URL}",
@@ -23,9 +25,12 @@ VerifyXML_simple()
 	{
         lr_end_transaction("VerifyXML_simple", LR_FAIL);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXML_simple", LR_PASS);
+	else
+	{
+		lr_end_transaction("VerifyXML_simple", LR_PASS);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }

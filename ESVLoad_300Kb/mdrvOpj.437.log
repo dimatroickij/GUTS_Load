@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+VerifyCMSSignature_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignature_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignature_withSignedReport.c(7): C:\LR_DATA\300k/VerifyCMSSignature_withSignedReport_61.xml	[MsgId: MMSG-17999]
+VerifyCMSSignature_withSignedReport.c(10): Use file: {VerifyCMSSignature_withSignedReport_file}	[MsgId: MMSG-17999]
+VerifyCMSSignature_withSignedReport.c(13): Notify: Transaction "VerifyCMSSignature_withSignedReport" started.	[MsgId: MMSG-16999]
+VerifyCMSSignature_withSignedReport.c(14): Error: HTTP status code 404 returned by the server	[MsgId: MERR-108974]
+VerifyCMSSignature_withSignedReport.c(14): Error: SOAP request "VerifyCMSSignature_withSignedReport" execution failed	[MsgId: MERR-108964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

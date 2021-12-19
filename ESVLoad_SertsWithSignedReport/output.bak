@@ -1,0 +1,24 @@
+Virtual User Script started at: 02.03.2020 5:59:26
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyCertificate_simple.
+VerifyCertificate_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCertificate_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCertificate_simple.c(7): C:\LR_DATA\certs/VerifyCertificate_simple_5487.xml
+VerifyCertificate_simple.c(10): Use file: {VerifyCertificate_simple_file}
+VerifyCertificate_simple.c(12): Notify: Transaction "VerifyCertificate_simple" started.
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" started
+VerifyCertificate_simple.c(13): SOAP request "VerifyCertificate_simple" was successful
+VerifyCertificate_simple.c(24): Notify: Transaction "VerifyCertificate_simple" ended with a "Fail" status (Duration: 1,7089 Wasted Time: 0,0455).
+VerifyCertificate_simple.c(24): Notify: Transaction "VerifyCertificate_simple" has 0 error message(s).
+VerifyCertificate_simple.c(25): Error: error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCertificateResponse xmlns="http://esv.server.rt.ru"><VerifyCertificateResult><Code>1</Code><Description>Внутренняя ошибка сервиса (javax.ejb.EJBTransactionRolledbackException: Ошибка на стороне REST-сервиса SCC.Crypto: ApiImpl.createLowLevelSignature ::: Ошибка при выполнении createLowLevelSignature ::: Ошибка получения списка сертификатов. Не найден сертификат в хранилище. При вызове функции WinApi CertFindCertificateInStore возникла ошибка, код: 80092004.)</Description></VerifyCertificateResult></VerifyCertificateResponse></soap:Body></soap:Envelope>
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

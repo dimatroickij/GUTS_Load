@@ -1,0 +1,168 @@
+Virtual User Script started at: 11/15/2021 12:55:48
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyXAdES_withSignedReport.
+VerifyXAdES_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyXAdES_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyXAdES_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyXAdES_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_withSignedReport.c(7): C:\LR_DATA\50k/VerifyXAdES_withSignedReport_94.xml
+VerifyXAdES_withSignedReport.c(10): Use file: {VerifyXAdES_withSignedReport_file}
+VerifyXAdES_withSignedReport.c(12): Notify: Transaction "VerifyXAdES_withSignedReport" started.
+VerifyXAdES_withSignedReport.c(13): SOAP request "VerifyXAdES_withSignedReport" started
+VerifyXAdES_withSignedReport.c(13): SOAP request "VerifyXAdES_withSignedReport" was successful
+VerifyXAdES_withSignedReport.c(29): Notify: Transaction "VerifyXAdES_withSignedReport" ended with a "Pass" status (Duration: 5.6679 Wasted Time: 0.0420).
+Ending action VerifyXAdES_withSignedReport.
+Ending iteration 1.
+Starting iteration 2.
+Starting action VerifyCADES_withSignedReport.
+VerifyCADES_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(7): C:\LR_DATA\50k/VerifyCADES_withSignedReport_15.xml
+VerifyCADES_withSignedReport.c(10): Use file: {VerifyCADES_withSignedReport_file}
+VerifyCADES_withSignedReport.c(12): Notify: Transaction "VerifyCADES_withSignedReport" started.
+VerifyCADES_withSignedReport.c(13): SOAP request "VerifyCADES_withSignedReport" started
+VerifyCADES_withSignedReport.c(13): SOAP request "VerifyCADES_withSignedReport" was successful
+VerifyCADES_withSignedReport.c(29): Notify: Transaction "VerifyCADES_withSignedReport" ended with a "Pass" status (Duration: 5.1769 Wasted Time: 0.0022).
+Ending action VerifyCADES_withSignedReport.
+Ending iteration 2.
+Starting iteration 3.
+Starting action VerifyPAdES_simple.
+VerifyPAdES_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(7): C:\LR_DATA\50k/VerifyPAdES_simple_18.xml
+VerifyPAdES_simple.c(10): Use file: {VerifyPAdES_simple_file}
+VerifyPAdES_simple.c(12): Notify: Transaction "VerifyPAdES_simple" started.
+VerifyPAdES_simple.c(13): SOAP request "VerifyPAdES_simple" started
+VerifyPAdES_simple.c(13): SOAP request "VerifyPAdES_simple" was successful
+VerifyPAdES_simple.c(29): Notify: Transaction "VerifyPAdES_simple" ended with a "Pass" status (Duration: 1.1589 Wasted Time: 0.0049).
+Ending action VerifyPAdES_simple.
+Ending iteration 3.
+Starting iteration 4.
+Starting action VerifyXML_simple.
+VerifyXML_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyXML_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyXML_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyXML_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyXML_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyXML_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyXML_simple.c(7): C:\LR_DATA\50k/VerifyXML_simple_77.xml
+VerifyXML_simple.c(10): Use file: {VerifyXML_simple_file}
+VerifyXML_simple.c(12): Notify: Transaction "VerifyXML_simple" started.
+VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" started
+VerifyXML_simple.c(13): SOAP request "VerifyXML_simple" was successful
+VerifyXML_simple.c(29): Notify: Transaction "VerifyXML_simple" ended with a "Pass" status (Duration: 0.8899 Wasted Time: 0.0010).
+Ending action VerifyXML_simple.
+Ending iteration 4.
+Starting iteration 5.
+Starting action VerifyCMSSignatureByHash_simple.
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(7): C:\LR_DATA\50k/VerifyCMSSignatureByHash_simple_38.xml
+VerifyCMSSignatureByHash_simple.c(10): Use file: {VerifyCMSSignatureByHash_simple_file}
+VerifyCMSSignatureByHash_simple.c(12): Notify: Transaction "VerifyCMSSignatureByHash_simple" started.
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" started
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" was successful
+VerifyCMSSignatureByHash_simple.c(29): Notify: Transaction "VerifyCMSSignatureByHash_simple" ended with a "Pass" status (Duration: 0.9829 Wasted Time: 0.0011).
+Ending action VerifyCMSSignatureByHash_simple.
+Ending iteration 5.
+Starting iteration 6.
+Starting action VerifyCMSSignatureByHash_withSignedReport.
+VerifyCMSSignatureByHash_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_withSignedReport.c(7): C:\LR_DATA\50k/VerifyCMSSignatureByHash_withSignedReport_48.xml
+VerifyCMSSignatureByHash_withSignedReport.c(10): Use file: {VerifyCMSSignatureByHash_withSignedReport_file}
+VerifyCMSSignatureByHash_withSignedReport.c(12): Notify: Transaction "VerifyCMSSignatureByHash_withSignedReport" started.
+VerifyCMSSignatureByHash_withSignedReport.c(13): SOAP request "VerifyCMSSignatureByHash_withSignedReport" started
+VerifyCMSSignatureByHash_withSignedReport.c(13): SOAP request "VerifyCMSSignatureByHash_withSignedReport" was successful
+VerifyCMSSignatureByHash_withSignedReport.c(29): Notify: Transaction "VerifyCMSSignatureByHash_withSignedReport" ended with a "Pass" status (Duration: 3.7789 Wasted Time: 0.0038).
+Ending action VerifyCMSSignatureByHash_withSignedReport.
+Ending iteration 6.
+Starting iteration 7.
+Starting action VerifyCMSSignatureByHash_simple.
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(7): C:\LR_DATA\50k/VerifyCMSSignatureByHash_simple_28.xml
+VerifyCMSSignatureByHash_simple.c(10): Use file: {VerifyCMSSignatureByHash_simple_file}
+VerifyCMSSignatureByHash_simple.c(12): Notify: Transaction "VerifyCMSSignatureByHash_simple" started.
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" started
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" was successful
+VerifyCMSSignatureByHash_simple.c(29): Notify: Transaction "VerifyCMSSignatureByHash_simple" ended with a "Pass" status (Duration: 2.0779 Wasted Time: 0.0009).
+Ending action VerifyCMSSignatureByHash_simple.
+Ending iteration 7.
+Starting iteration 8.
+Starting action VerifyCMSSignatureByHash_simple.
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureByHash_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureByHash_simple.c(7): C:\LR_DATA\50k/VerifyCMSSignatureByHash_simple_54.xml
+VerifyCMSSignatureByHash_simple.c(10): Use file: {VerifyCMSSignatureByHash_simple_file}
+VerifyCMSSignatureByHash_simple.c(12): Notify: Transaction "VerifyCMSSignatureByHash_simple" started.
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" started
+VerifyCMSSignatureByHash_simple.c(13): SOAP request "VerifyCMSSignatureByHash_simple" was successful
+VerifyCMSSignatureByHash_simple.c(29): Notify: Transaction "VerifyCMSSignatureByHash_simple" ended with a "Pass" status (Duration: 0.7949 Wasted Time: 0.0009).
+Ending action VerifyCMSSignatureByHash_simple.
+Ending iteration 8.
+Starting iteration 9.
+Starting action VerifyCMSSignatureDetached_withSignedReport.
+VerifyCMSSignatureDetached_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureDetached_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureDetached_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureDetached_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureDetached_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCMSSignatureDetached_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCMSSignatureDetached_withSignedReport.c(7): C:\LR_DATA\50k/VerifyCMSSignatureDetached_withSignedReport_35.xml
+VerifyCMSSignatureDetached_withSignedReport.c(10): Use file: {VerifyCMSSignatureDetached_withSignedReport_file}
+VerifyCMSSignatureDetached_withSignedReport.c(12): Notify: Transaction "VerifyCMSSignatureDetached_withSignedReport" started.
+VerifyCMSSignatureDetached_withSignedReport.c(13): SOAP request "VerifyCMSSignatureDetached_withSignedReport" started
+VerifyCMSSignatureDetached_withSignedReport.c(13): SOAP request "VerifyCMSSignatureDetached_withSignedReport" was successful
+VerifyCMSSignatureDetached_withSignedReport.c(29): Notify: Transaction "VerifyCMSSignatureDetached_withSignedReport" ended with a "Pass" status (Duration: 16.3219 Wasted Time: 0.0034).
+Ending action VerifyCMSSignatureDetached_withSignedReport.
+Ending iteration 9.
+Starting iteration 10.
+Starting action VerifyCADES_withSignedReport.
+VerifyCADES_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyCADES_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyCADES_withSignedReport.c(7): C:\LR_DATA\50k/VerifyCADES_withSignedReport_39.xml
+VerifyCADES_withSignedReport.c(10): Use file: {VerifyCADES_withSignedReport_file}
+VerifyCADES_withSignedReport.c(12): Notify: Transaction "VerifyCADES_withSignedReport" started.
+VerifyCADES_withSignedReport.c(13): SOAP request "VerifyCADES_withSignedReport" started
+VerifyCADES_withSignedReport.c(13): SOAP request "VerifyCADES_withSignedReport" was successful
+VerifyCADES_withSignedReport.c(29): Notify: Transaction "VerifyCADES_withSignedReport" ended with a "Pass" status (Duration: 6.2840 Wasted Time: 0.0025).
+Ending action VerifyCADES_withSignedReport.
+Ending iteration 10.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

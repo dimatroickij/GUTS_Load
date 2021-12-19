@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR_SCRIPTS\Garbage
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\lr_scripts\garbage\\logfile.log
+c:\lr_scripts\garbage\\combined_Garbage.c
+c:\lr_scripts\garbage\\pre_cci.c

@@ -1,0 +1,24 @@
+Virtual User Script started at: 9/3/2020 1:27:15 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action VerifyPAdES_simple.
+VerifyPAdES_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyPAdES_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyPAdES_simple.c(7): C:\LR_DATA\512/VerifyPAdES_simple_96.xml
+VerifyPAdES_simple.c(10): Use file: {VerifyPAdES_simple_file}
+VerifyPAdES_simple.c(12): Notify: Transaction "VerifyPAdES_simple" started.
+VerifyPAdES_simple.c(13): SOAP request "VerifyPAdES_simple" started
+VerifyPAdES_simple.c(13): SOAP request "VerifyPAdES_simple" was successful
+VerifyPAdES_simple.c(24): Notify: Transaction "VerifyPAdES_simple" ended with a "Fail" status (Duration: 4.7028 Wasted Time: 0.0660).
+VerifyPAdES_simple.c(24): Notify: Transaction "VerifyPAdES_simple" has 0 error message(s).
+VerifyPAdES_simple.c(25): error: expected contains VerifyPAdES_simple_response}, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyPAdESResponse xmlns="http://esv.server.rt.ru"><VerifyPAdESResult><Code>1</Code></VerifyPAdESResult></VerifyPAdESResponse></soap:Body></soap:Envelope>
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

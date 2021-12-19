@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR_SCRIPTS\ESVLoad_50Kb
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\lr_scripts\esvload_50kb\\logfile.log
+c:\lr_scripts\esvload_50kb\\combined_ESVLoad_50Kb.c
+c:\lr_scripts\esvload_50kb\\pre_cci.c

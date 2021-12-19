@@ -1,1 +1,0 @@
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyCertificateResponse xmlns="http://esv.server.rt.ru"><VerifyCertificateResult><Code>0</Code><Description>ДЕЙСТВИТЕЛЕН, сертификат выдан аккредитованным удостоверяющим центром</Description></VerifyCertificateResult></VerifyCertificateResponse></soap:Body></soap:Envelope>
