@@ -24,7 +24,7 @@
     <FileEntry Name="ESVLoad_50Kb.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
-    <FileEntry Name="ESVLoad_1Mb.prm" Filter="2" />
+    <FileEntry Name="ESVLoad_50Kb.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="VerifyCMSSignature_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCMSSignatureDetached_withSignedReport.csv" Filter="2" />
@@ -45,70 +45,17 @@
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_50Kb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="WSDL\" Filter="2" />
-    <FileEntry Name="104955223440.idx" Filter="1" />
-    <FileEntry Name="10495522344_jfI.16.idx" Filter="1" />
-    <FileEntry Name="10495522344_xvr.738.idx" Filter="1" />
-    <FileEntry Name="11455944440.idx" Filter="1" />
-    <FileEntry Name="1145594444_Pks.729.idx" Filter="1" />
-    <FileEntry Name="1145594444_sTZ.7.idx" Filter="1" />
-    <FileEntry Name="116159623440.idx" Filter="1" />
-    <FileEntry Name="11615962344_k6F.12.idx" Filter="1" />
-    <FileEntry Name="11615962344_qcs.734.idx" Filter="1" />
-    <FileEntry Name="146267203440.idx" Filter="1" />
-    <FileEntry Name="14626720344_bD4.744.idx" Filter="1" />
-    <FileEntry Name="14626720344_Mse.22.idx" Filter="1" />
-    <FileEntry Name="158207983440.idx" Filter="1" />
-    <FileEntry Name="15820798344_2jw.21.idx" Filter="1" />
-    <FileEntry Name="15820798344_LvG.743.idx" Filter="1" />
-    <FileEntry Name="159782894440.idx" Filter="1" />
-    <FileEntry Name="15978289444_dXB.8.idx" Filter="1" />
-    <FileEntry Name="15978289444_qUH.730.idx" Filter="1" />
-    <FileEntry Name="162940107440.idx" Filter="1" />
-    <FileEntry Name="16294010744_iEB.733.idx" Filter="1" />
-    <FileEntry Name="16294010744_O0v.11.idx" Filter="1" />
-    <FileEntry Name="218208934440.idx" Filter="1" />
-    <FileEntry Name="21820893444_NF1.736.idx" Filter="1" />
-    <FileEntry Name="21820893444_P3p.14.idx" Filter="1" />
-    <FileEntry Name="22172882440.idx" Filter="1" />
-    <FileEntry Name="2217288244_3rk.18.idx" Filter="1" />
-    <FileEntry Name="2217288244_l7I.740.idx" Filter="1" />
-    <FileEntry Name="37703648440.idx" Filter="1" />
-    <FileEntry Name="3770364844_Ghb.732.idx" Filter="1" />
-    <FileEntry Name="3770364844_Nuz.10.idx" Filter="1" />
-    <FileEntry Name="44399011440.idx" Filter="1" />
-    <FileEntry Name="47529671440.idx" Filter="1" />
-    <FileEntry Name="4752967144_bW6.13.idx" Filter="1" />
-    <FileEntry Name="4752967144_nIY.735.idx" Filter="1" />
-    <FileEntry Name="62097293440.idx" Filter="1" />
-    <FileEntry Name="64536763440.idx" Filter="1" />
-    <FileEntry Name="6453676344_A4w.19.idx" Filter="1" />
-    <FileEntry Name="6453676344_zxz.741.idx" Filter="1" />
-    <FileEntry Name="6968515440.idx" Filter="1" />
-    <FileEntry Name="696851544_7Az.731.idx" Filter="1" />
-    <FileEntry Name="696851544_RLf.9.idx" Filter="1" />
-    <FileEntry Name="75722484440.idx" Filter="1" />
-    <FileEntry Name="7572248444_0jC.20.idx" Filter="1" />
-    <FileEntry Name="7572248444_CAL.742.idx" Filter="1" />
-    <FileEntry Name="79246865440.idx" Filter="1" />
-    <FileEntry Name="7924686544_nX5.739.idx" Filter="1" />
-    <FileEntry Name="7924686544_XsH.17.idx" Filter="1" />
-    <FileEntry Name="94484808440.idx" Filter="1" />
-    <FileEntry Name="9448480844_hdw.737.idx" Filter="1" />
-    <FileEntry Name="9448480844_snw.15.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
-    <FileEntry Name="ESVLoad_1Mb.prm.bak" Filter="1" />
     <FileEntry Name="ESVLoad_50Kb.c.pickle" Filter="1" />
     <FileEntry Name="ESVLoad_50Kb.ci" Filter="1" />
+    <FileEntry Name="ESVLoad_50Kb.prm.bak" Filter="1" />
     <FileEntry Name="ESVLoad_50Kb.sdf" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
-    <FileEntry Name="mdrvMDp.679.log" Filter="1" />
-    <FileEntry Name="mdrvXWD.175.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -119,10 +66,5 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
-    <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
-    <FileEntry Name="VerifyWSS_simple.csv" Filter="1" />
-    <FileEntry Name="VerifyWSS_withSignedReport.csv" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

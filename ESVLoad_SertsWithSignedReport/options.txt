@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\LR_SCRIPTS\ESVLoad_Serts
+-IC:\LR_SCRIPTS\ESVLoad_SertsWithSignedReport
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\lr_scripts\esvload_serts\\logfile.log
-c:\lr_scripts\esvload_serts\\combined_ESVLoad_Serts.c
-c:\lr_scripts\esvload_serts\\pre_cci.c
+-ec:\lr_scripts\esvload_sertswithsignedreport\\logfile.log
+c:\lr_scripts\esvload_sertswithsignedreport\\combined_ESVLoad_SertsWithSignedReport.c
+c:\lr_scripts\esvload_sertswithsignedreport\\pre_cci.c

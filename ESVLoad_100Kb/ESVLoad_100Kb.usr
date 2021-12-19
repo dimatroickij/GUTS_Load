@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=ESVLoad_1Mb.prm
+ParameterFile=ESVLoad_100Kb.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
@@ -121,8 +121,8 @@ Order="VerifyCMSSignature_simple__*delimiter*__VerifyCMSSignature_withSignedRepo
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 VerifyCMSSignature_simple=
 VerifyCMSSignature_withSignedReport=

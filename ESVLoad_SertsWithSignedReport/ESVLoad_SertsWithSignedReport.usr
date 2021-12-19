@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=ESVLoad_Serts.prm
+ParameterFile=ESVLoad_SertsWithSignedReport.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
@@ -54,9 +54,9 @@ vuser_end=cci
 [TransactionsOrder]
 Order="VerifyCertificate_withSignedReport"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
 [Transactions]
 VerifyCertificate_withSignedReport=

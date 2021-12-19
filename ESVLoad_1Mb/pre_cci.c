@@ -2861,6 +2861,8 @@ VerifyCMSSignature_simple()
 
 	lr_output_message("Use file: {VerifyCMSSignature_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyCMSSignature_simple");
 	
 	soap_request("StepName=VerifyCMSSignature_simple",
@@ -2876,10 +2878,13 @@ VerifyCMSSignature_simple()
 	{
         lr_end_transaction("VerifyCMSSignature_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignature_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignature_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignature_simple", 0);
+	}
+	
+    lr_continue_on_error(0);
 	return 0;
 }
 # 6 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -2896,6 +2901,7 @@ VerifyCMSSignature_withSignedReport()
 
 	lr_output_message("Use file: {VerifyCMSSignature_withSignedReport_file}");
 
+	lr_continue_on_error(1);
 	lr_start_transaction("VerifyCMSSignature_withSignedReport");
 	soap_request("StepName=VerifyCMSSignature_withSignedReport",
 		"URL={URL}",
@@ -2910,10 +2916,13 @@ VerifyCMSSignature_withSignedReport()
 	{
         lr_end_transaction("VerifyCMSSignature_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignature_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignature_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignature_withSignedReport", 0);
+	}
+	
+    lr_continue_on_error(0);
 	return 0;
 }
 # 7 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -2930,6 +2939,7 @@ VerifyCMSSignatureByHash_simple()
 
 	lr_output_message("Use file: {VerifyCMSSignatureByHash_simple_file}");
 
+	lr_continue_on_error(1);
 	lr_start_transaction("VerifyCMSSignatureByHash_simple");
 	soap_request("StepName=VerifyCMSSignatureByHash_simple",
 		"URL={URL}",
@@ -2944,10 +2954,12 @@ VerifyCMSSignatureByHash_simple()
 	{
         lr_end_transaction("VerifyCMSSignatureByHash_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureByHash_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignatureByHash_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignatureByHash_simple", 0);
+	}
+	lr_continue_on_error(0);
 	return 0;
 }
 # 8 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -2964,6 +2976,8 @@ VerifyCMSSignatureDetached_simple()
 
 	lr_output_message("Use file: {VerifyCMSSignatureDetached_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyCMSSignatureDetached_simple");
 	soap_request("StepName=VerifyCMSSignatureDetached_simple",
 		"URL={URL}",
@@ -2978,10 +2992,13 @@ VerifyCMSSignatureDetached_simple()
 	{
         lr_end_transaction("VerifyCMSSignatureDetached_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureDetached_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignatureDetached_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignatureDetached_simple", 0);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }
 # 9 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -2998,6 +3015,8 @@ VerifyCMSSignatureByHash_withSignedReport()
 
 	lr_output_message("Use file: {VerifyCMSSignatureByHash_withSignedReport_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyCMSSignatureByHash_withSignedReport");
 	soap_request("StepName=VerifyCMSSignatureByHash_withSignedReport",
 		"URL={URL}",
@@ -3012,10 +3031,12 @@ VerifyCMSSignatureByHash_withSignedReport()
 	{
         lr_end_transaction("VerifyCMSSignatureByHash_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureByHash_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignatureByHash_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignatureByHash_withSignedReport", 0);
+	}
+    lr_continue_on_error(0);
 	return 0;
 }
 # 10 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3031,7 +3052,9 @@ VerifyCMSSignatureDetached_withSignedReport()
 	lr_read_file(lr_eval_string("{dataPath}/{VerifyCMSSignatureDetached_withSignedReport_file}"), "request", 0);
 
 	lr_output_message("Use file: {VerifyCMSSignatureDetached_withSignedReport_file}");
-
+	
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyCMSSignatureDetached_withSignedReport");
 	soap_request("StepName=VerifyCMSSignatureDetached_withSignedReport",
 		"URL={URL}",
@@ -3046,10 +3069,13 @@ VerifyCMSSignatureDetached_withSignedReport()
 	{
         lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCMSSignatureDetached_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyCMSSignatureDetached_withSignedReport", 0);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }
 # 11 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3066,6 +3092,8 @@ VerifyPAdES_simple()
 
 	lr_output_message("Use file: {VerifyPAdES_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyPAdES_simple");
 	soap_request("StepName=VerifyPAdES_simple",
 		"URL={URL}",
@@ -3080,10 +3108,13 @@ VerifyPAdES_simple()
 	{
         lr_end_transaction("VerifyPAdES_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains VerifyPAdES_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyPAdES_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyPAdES_simple", 0);
+	}
+	
+    lr_continue_on_error(1);
 	return 0;
 }
 # 12 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3100,6 +3131,7 @@ VerifyPAdES_withSignedReport()
 
 	lr_output_message("Use file: {VerifyPAdES_withSignedReport_file}");
 
+	lr_continue_on_error(1);
 	lr_start_transaction("VerifyPAdES_withSignedReport");
 	soap_request("StepName=VerifyPAdES_withSignedReporte",
 		"URL={URL}",
@@ -3114,10 +3146,13 @@ VerifyPAdES_withSignedReport()
 	{
         lr_end_transaction("VerifyPAdES_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains VerifyPAdES_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyPAdES_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyPAdES_withSignedReport", 0);
+	}
+	
+    lr_continue_on_error(0);
 	return 0;
 }
 # 13 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3134,6 +3169,8 @@ VerifyCADES_simple()
 
 	lr_output_message("Use file: {VerifyCADES_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyCADES_simple");
 	soap_request("StepName=VerifyCADES_simple",
 		"URL={URL}",
@@ -3148,10 +3185,12 @@ VerifyCADES_simple()
 	{
         lr_end_transaction("VerifyCADES_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains VerifyCADES_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCADES_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyCADES_simple", 0);
+	}
+    lr_continue_on_error(0);
 	return 0;
 }
 # 14 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3167,6 +3206,8 @@ VerifyCADES_withSignedReport()
 	lr_read_file(lr_eval_string("{dataPath}/{VerifyCADES_withSignedReport_file}"), "request", 0);
 
 	lr_output_message("Use file: {VerifyCADES_withSignedReport_file}");
+	
+	lr_continue_on_error(1);
 
 	lr_start_transaction("VerifyCADES_withSignedReport");
 	soap_request("StepName=VerifyCADES_withSignedReport",
@@ -3182,10 +3223,13 @@ VerifyCADES_withSignedReport()
 	{
         lr_end_transaction("VerifyCADES_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyCADES_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyCADES_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyCADES_withSignedReport", 0);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }
 # 15 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3202,6 +3246,8 @@ VerifyXAdES_simple()
 
 	lr_output_message("Use file: {VerifyXAdES_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXAdES_simple");
 	soap_request("StepName=VerifyXAdES_simple",
 		"URL={URL}",
@@ -3216,10 +3262,13 @@ VerifyXAdES_simple()
 	{
         lr_end_transaction("VerifyXAdES_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXAdES_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXAdES_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyXAdES_simple", 0);
+	}
+	
+	lr_continue_on_error(0);
 	return 0;
 }
 # 16 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3236,6 +3285,8 @@ VerifyXAdES_withSignedReport()
 
 	lr_output_message("Use file: {VerifyXAdES_withSignedReport_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXAdES_withSignedReport");
 	soap_request("StepName=VerifyXAdES_withSignedReport",
 		"URL={URL}",
@@ -3250,10 +3301,13 @@ VerifyXAdES_withSignedReport()
 	{
         lr_end_transaction("VerifyXAdES_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXAdES_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXAdES_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyXAdES_withSignedReport", 0);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }
 # 17 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3270,6 +3324,8 @@ VerifyXML_simple()
 
 	lr_output_message("Use file: {VerifyXML_simple_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXML_simple");
 	soap_request("StepName=VerifyXML_simple",
 		"URL={URL}",
@@ -3284,10 +3340,13 @@ VerifyXML_simple()
 	{
         lr_end_transaction("VerifyXML_simple", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_simple_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXML_simple", 0);
+	else
+	{
+		lr_end_transaction("VerifyXML_simple", 0);
+	}
+    
+    lr_continue_on_error(0);
 	return 0;
 }
 # 18 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2
@@ -3304,6 +3363,8 @@ VerifyXML_withSignedReport()
 
 	lr_output_message("Use file: {VerifyXML_withSignedReport_file}");
 
+	lr_continue_on_error(1);
+	
 	lr_start_transaction("VerifyXML_withSignedReport");
 	soap_request("StepName=VerifyXML_withSignedReport",
 		"URL={URL}",
@@ -3318,10 +3379,12 @@ VerifyXML_withSignedReport()
 	{
         lr_end_transaction("VerifyXML_withSignedReport", 1);
 		lr_output_message( lr_eval_string("error: expected contains {VerifyXML_withSignedReport_response}, but got {result}"));
-		return -1;
 	}
-
-    lr_end_transaction("VerifyXML_withSignedReport", 0);
+	else
+	{
+		lr_end_transaction("VerifyXML_withSignedReport", 0);
+	}
+    lr_continue_on_error(0);
 	return 0;
 }
 # 19 "c:\\lr_scripts\\esvload_1mb\\\\combined_ESVLoad_1Mb.c" 2

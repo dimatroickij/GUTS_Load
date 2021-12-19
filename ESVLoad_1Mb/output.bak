@@ -1,23 +1,23 @@
-Virtual User Script started at: 11/25/2020 10:23:02
+Virtual User Script started at: 11/15/2021 13:07:36
 Starting action vuser_init.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
-Starting action VerifyXAdES_withSignedReport.
-VerifyXAdES_withSignedReport.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
-VerifyXAdES_withSignedReport.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
-VerifyXAdES_withSignedReport.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
-VerifyXAdES_withSignedReport.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
-VerifyXAdES_withSignedReport.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
-VerifyXAdES_withSignedReport.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-VerifyXAdES_withSignedReport.c(7): C:\LR_DATA\1024/VerifyXAdES_withSignedReport_124.xml
-VerifyXAdES_withSignedReport.c(10): Use file: {VerifyXAdES_withSignedReport_file}
-VerifyXAdES_withSignedReport.c(12): Notify: Transaction "VerifyXAdES_withSignedReport" started.
-VerifyXAdES_withSignedReport.c(13): SOAP request "VerifyXAdES_withSignedReport" started
-VerifyXAdES_withSignedReport.c(13): SOAP request "VerifyXAdES_withSignedReport" was successful
-VerifyXAdES_withSignedReport.c(24): Notify: Transaction "VerifyXAdES_withSignedReport" ended with a "Fail" status (Duration: 1.3278 Wasted Time: 0.0736).
-VerifyXAdES_withSignedReport.c(24): Notify: Transaction "VerifyXAdES_withSignedReport" has 0 error message(s).
-VerifyXAdES_withSignedReport.c(25): error: expected contains <Code>0</Code>, but got <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><VerifyXAdESWithSignedReportResponse xmlns="http://esv.server.rt.ru"><VerifyXAdESWithSignedReportResult><Code>1</Code></VerifyXAdESWithSignedReportResult></VerifyXAdESWithSignedReportResponse></soap:Body></soap:Envelope>
+Starting action VerifyXAdES_simple.
+VerifyXAdES_simple.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+VerifyXAdES_simple.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_simple.c(4): web_cleanup_auto_headers started  	[MsgId: MMSG-26355]
+VerifyXAdES_simple.c(4): web_cleanup_auto_headers was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_simple.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+VerifyXAdES_simple.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+VerifyXAdES_simple.c(7): C:\LR_DATA\1024/VerifyXAdES_simple_18.xml
+VerifyXAdES_simple.c(10): Use file: {VerifyXAdES_simple_file}
+VerifyXAdES_simple.c(12): Notify: Transaction "VerifyXAdES_simple" started.
+VerifyXAdES_simple.c(13): SOAP request "VerifyXAdES_simple" started
+VerifyXAdES_simple.c(13): SOAP request "VerifyXAdES_simple" was successful
+VerifyXAdES_simple.c(29): Notify: Transaction "VerifyXAdES_simple" ended with a "Pass" status (Duration: 1.3599 Wasted Time: 0.0782).
+Ending action VerifyXAdES_simple.
+Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

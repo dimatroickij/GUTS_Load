@@ -22,3 +22,5 @@ Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
+Warning: Extension LrXml.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

@@ -15,7 +15,6 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="URL.dat" Filter="2" />
     <FileEntry Name="VerifyCertificate_simple.csv" Filter="2" />
-    <FileEntry Name="VerifyCertificate_withSignedReport.csv" Filter="2" />
     <FileEntry Name="dataPath.dat" Filter="2" />
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_Serts.c" Filter="2" />
@@ -30,74 +29,6 @@
     <FileEntry Name="ESVLoad_Serts.sdf" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
-    <FileEntry Name="mdrv0Il.927.log" Filter="1" />
-    <FileEntry Name="mdrv472.763.log" Filter="1" />
-    <FileEntry Name="mdrv4BG.289.log" Filter="1" />
-    <FileEntry Name="mdrv4Zn.569.log" Filter="1" />
-    <FileEntry Name="mdrv5cP.327.log" Filter="1" />
-    <FileEntry Name="mdrv5Tc.419.log" Filter="1" />
-    <FileEntry Name="mdrv5uV.375.log" Filter="1" />
-    <FileEntry Name="mdrv6RC.903.log" Filter="1" />
-    <FileEntry Name="mdrv8Mz.303.log" Filter="1" />
-    <FileEntry Name="mdrv9PA.443.log" Filter="1" />
-    <FileEntry Name="mdrv9Qa.559.log" Filter="1" />
-    <FileEntry Name="mdrv9ti.631.log" Filter="1" />
-    <FileEntry Name="mdrv9wk.109.log" Filter="1" />
-    <FileEntry Name="mdrva91.871.log" Filter="1" />
-    <FileEntry Name="mdrvAUQ.55.log" Filter="1" />
-    <FileEntry Name="mdrvbb5.349.log" Filter="1" />
-    <FileEntry Name="mdrvBj6.283.log" Filter="1" />
-    <FileEntry Name="mdrvdCd.285.log" Filter="1" />
-    <FileEntry Name="mdrvdLF.43.log" Filter="1" />
-    <FileEntry Name="mdrvEem.975.log" Filter="1" />
-    <FileEntry Name="mdrveH4.755.log" Filter="1" />
-    <FileEntry Name="mdrverQ.987.log" Filter="1" />
-    <FileEntry Name="mdrvftx.891.log" Filter="1" />
-    <FileEntry Name="mdrvgOy.791.log" Filter="1" />
-    <FileEntry Name="mdrvgXd.595.log" Filter="1" />
-    <FileEntry Name="mdrvh6X.255.log" Filter="1" />
-    <FileEntry Name="mdrvHNM.431.log" Filter="1" />
-    <FileEntry Name="mdrvHP1.481.log" Filter="1" />
-    <FileEntry Name="mdrvhvN.479.log" Filter="1" />
-    <FileEntry Name="mdrvi4W.153.log" Filter="1" />
-    <FileEntry Name="mdrvJ0H.751.log" Filter="1" />
-    <FileEntry Name="mdrvjME.527.log" Filter="1" />
-    <FileEntry Name="mdrvJmy.277.log" Filter="1" />
-    <FileEntry Name="mdrvJYb.321.log" Filter="1" />
-    <FileEntry Name="mdrvKaj.175.log" Filter="1" />
-    <FileEntry Name="mdrvkd1.879.log" Filter="1" />
-    <FileEntry Name="mdrvlmA.415.log" Filter="1" />
-    <FileEntry Name="mdrvlqz.129.log" Filter="1" />
-    <FileEntry Name="mdrvm2i.803.log" Filter="1" />
-    <FileEntry Name="mdrvMBh.349.log" Filter="1" />
-    <FileEntry Name="mdrvmIk.81.log" Filter="1" />
-    <FileEntry Name="mdrvNJA.297.log" Filter="1" />
-    <FileEntry Name="mdrvnPh.309.log" Filter="1" />
-    <FileEntry Name="mdrvNv6.939.log" Filter="1" />
-    <FileEntry Name="mdrvoLn.167.log" Filter="1" />
-    <FileEntry Name="mdrvOpp.669.log" Filter="1" />
-    <FileEntry Name="mdrvOs1.955.log" Filter="1" />
-    <FileEntry Name="mdrvoyI.395.log" Filter="1" />
-    <FileEntry Name="mdrvpqX.245.log" Filter="1" />
-    <FileEntry Name="mdrvPuA.993.log" Filter="1" />
-    <FileEntry Name="mdrvQ5N.509.log" Filter="1" />
-    <FileEntry Name="mdrvqbH.51.log" Filter="1" />
-    <FileEntry Name="mdrvqdP.663.log" Filter="1" />
-    <FileEntry Name="mdrvQYK.417.log" Filter="1" />
-    <FileEntry Name="mdrvSwj.165.log" Filter="1" />
-    <FileEntry Name="mdrvTD7.203.log" Filter="1" />
-    <FileEntry Name="mdrvtK0.507.log" Filter="1" />
-    <FileEntry Name="mdrvtKb.361.log" Filter="1" />
-    <FileEntry Name="mdrvtlL.981.log" Filter="1" />
-    <FileEntry Name="mdrvTlN.983.log" Filter="1" />
-    <FileEntry Name="mdrvVub.427.log" Filter="1" />
-    <FileEntry Name="mdrvWi4.951.log" Filter="1" />
-    <FileEntry Name="mdrvWwU.993.log" Filter="1" />
-    <FileEntry Name="mdrvWz8.751.log" Filter="1" />
-    <FileEntry Name="mdrvxkl.807.log" Filter="1" />
-    <FileEntry Name="mdrvXUa.417.log" Filter="1" />
-    <FileEntry Name="mdrvynN.947.log" Filter="1" />
-    <FileEntry Name="mdrvzh3.129.log" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />

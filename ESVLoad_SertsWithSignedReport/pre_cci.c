@@ -1,4 +1,4 @@
-# 1 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c"
+# 1 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 1 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 2 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 
 # 1 "globals.h" 1
 
@@ -2839,7 +2839,7 @@ void
  
 
 
-# 3 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 3 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 
 
 # 1 "vuser_init.c" 1
@@ -2847,42 +2847,7 @@ vuser_init()
 {
 	return 0;
 }
-# 5 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
-
-# 1 "VerifyCertificate_simple.c" 1
-VerifyCertificate_simple()
-{
-	web_cache_cleanup();
-	web_cleanup_auto_headers();
-	web_cleanup_cookies();
-
-	lr_output_message(	lr_eval_string("{dataPath}/{VerifyCertificate_simple_file}"));
-	lr_read_file(lr_eval_string("{dataPath}/{VerifyCertificate_simple_file}"), "request", 0);
-
-	lr_output_message("Use file: {VerifyCertificate_simple_file}");
-
-	lr_start_transaction("VerifyCertificate_simple");
-	soap_request("StepName=VerifyCertificate_simple",
-		"URL={URL}",
-		"SOAPEnvelope="
-			"{request}",
-		"ExpectedResponse=AnySoap",
-		"ResponseParam=result",
-		"LAST");
-
-	 
-	if(strstr( lr_eval_string("{result}"), lr_eval_string("{VerifyCertificate_simple_response}"))==0)
-	{
-        lr_end_transaction("VerifyCertificate_simple", 1);
-		lr_error_message( lr_eval_string("error: expected contains {VerifyCertificate_simple_response}, but got {result}"));
-		return -1;
-		 
-	}
-
-    lr_end_transaction("VerifyCertificate_simple", 0);
-	return 0;
-}
-# 6 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 5 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 
 # 1 "VerifyCertificate_withSignedReport.c" 1
 VerifyCertificate_withSignedReport()
@@ -2896,7 +2861,9 @@ VerifyCertificate_withSignedReport()
 
 	lr_output_message("Use file: {VerifyCertificate_withSignedReport_file}");
 
+	lr_continue_on_error(1);
 	lr_start_transaction("VerifyCertificate_withSignedReport");
+	
 	soap_request("StepName=VerifyCertificate_withSignedReport",
 		"URL={URL}",
 		"SOAPEnvelope="
@@ -2910,19 +2877,21 @@ VerifyCertificate_withSignedReport()
 	{
         lr_end_transaction("VerifyCertificate_withSignedReport", 1);
 		lr_error_message( lr_eval_string("error: expected contains {VerifyCertificate_withSignedReport_response}, but got {result}"));
-		return -1;
-		 
 	}
-
-    lr_end_transaction("VerifyCertificate_withSignedReport", 0);
-	return 0;
+	else
+	{
+		lr_end_transaction("VerifyCertificate_withSignedReport", 0);
+	}
+    
+	lr_continue_on_error(0);
+    return 0;
 }
-# 7 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 6 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 8 "c:\\lr_scripts\\esvload_serts\\\\combined_ESVLoad_Serts.c" 2
+# 7 "c:\\lr_scripts\\esvload_sertswithsignedreport\\\\combined_ESVLoad_SertsWithSignedReport.c" 2
 

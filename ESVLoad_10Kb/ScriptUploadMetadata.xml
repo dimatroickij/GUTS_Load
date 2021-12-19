@@ -24,7 +24,7 @@
     <FileEntry Name="ESVLoad_10Kb.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
-    <FileEntry Name="ESVLoad_1Mb.prm" Filter="2" />
+    <FileEntry Name="ESVLoad_10Kb.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="VerifyCMSSignature_withSignedReport.csv" Filter="2" />
     <FileEntry Name="VerifyCMSSignatureDetached_withSignedReport.csv" Filter="2" />
@@ -45,207 +45,17 @@
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_10Kb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="WSDL\" Filter="2" />
-    <FileEntry Name="10211860440.idx" Filter="1" />
-    <FileEntry Name="1021186044_2gu.701.idx" Filter="1" />
-    <FileEntry Name="1021186044_7FM.749.idx" Filter="1" />
-    <FileEntry Name="1021186044_7Gs.731.idx" Filter="1" />
-    <FileEntry Name="1021186044_8US.79.idx" Filter="1" />
-    <FileEntry Name="1021186044_9Uf.23.idx" Filter="1" />
-    <FileEntry Name="1021186044_9W0.705.idx" Filter="1" />
-    <FileEntry Name="1021186044_Bg4.51.idx" Filter="1" />
-    <FileEntry Name="1021186044_ctC.527.idx" Filter="1" />
-    <FileEntry Name="1021186044_gw4.459.idx" Filter="1" />
-    <FileEntry Name="1021186044_wLO.127.idx" Filter="1" />
-    <FileEntry Name="126548542440.idx" Filter="1" />
-    <FileEntry Name="12654854244_3z8.116.idx" Filter="1" />
-    <FileEntry Name="12654854244_73O.448.idx" Filter="1" />
-    <FileEntry Name="12654854244_93R.745.idx" Filter="1" />
-    <FileEntry Name="12654854244_9nu.47.idx" Filter="1" />
-    <FileEntry Name="12654854244_hjx.720.idx" Filter="1" />
-    <FileEntry Name="12654854244_PpG.12.idx" Filter="1" />
-    <FileEntry Name="12654854244_S3R.75.idx" Filter="1" />
-    <FileEntry Name="12654854244_sLJ.694.idx" Filter="1" />
-    <FileEntry Name="12654854244_UG4.516.idx" Filter="1" />
-    <FileEntry Name="12654854244_VLH.697.idx" Filter="1" />
-    <FileEntry Name="155578544440.idx" Filter="1" />
-    <FileEntry Name="15557854444_bNV.729.idx" Filter="1" />
-    <FileEntry Name="15557854444_cdK.740.idx" Filter="1" />
-    <FileEntry Name="15557854444_czL.21.idx" Filter="1" />
-    <FileEntry Name="15557854444_DVH.42.idx" Filter="1" />
-    <FileEntry Name="15557854444_go8.692.idx" Filter="1" />
-    <FileEntry Name="15557854444_hIE.525.idx" Filter="1" />
-    <FileEntry Name="15557854444_KDn.125.idx" Filter="1" />
-    <FileEntry Name="15557854444_S6R.703.idx" Filter="1" />
-    <FileEntry Name="15557854444_SUP.457.idx" Filter="1" />
-    <FileEntry Name="15557854444_yD7.70.idx" Filter="1" />
-    <FileEntry Name="210540643440.idx" Filter="1" />
-    <FileEntry Name="21054064344_3BU.693.idx" Filter="1" />
-    <FileEntry Name="21054064344_9Xh.524.idx" Filter="1" />
-    <FileEntry Name="21054064344_Ahy.728.idx" Filter="1" />
-    <FileEntry Name="21054064344_eLO.741.idx" Filter="1" />
-    <FileEntry Name="21054064344_hhF.124.idx" Filter="1" />
-    <FileEntry Name="21054064344_lyF.20.idx" Filter="1" />
-    <FileEntry Name="21054064344_OYa.43.idx" Filter="1" />
-    <FileEntry Name="21054064344_PS8.456.idx" Filter="1" />
-    <FileEntry Name="21054064344_ul9.71.idx" Filter="1" />
-    <FileEntry Name="21054064344_W1Q.702.idx" Filter="1" />
-    <FileEntry Name="252434692440.idx" Filter="1" />
-    <FileEntry Name="25243469244_8kb.462.idx" Filter="1" />
-    <FileEntry Name="25243469244_AZm.67.idx" Filter="1" />
-    <FileEntry Name="25243469244_Ber.734.idx" Filter="1" />
-    <FileEntry Name="25243469244_Eha.689.idx" Filter="1" />
-    <FileEntry Name="25243469244_IPE.26.idx" Filter="1" />
-    <FileEntry Name="25243469244_Ld0.708.idx" Filter="1" />
-    <FileEntry Name="25243469244_n1t.130.idx" Filter="1" />
-    <FileEntry Name="25243469244_Pz4.39.idx" Filter="1" />
-    <FileEntry Name="25243469244_rHp.530.idx" Filter="1" />
-    <FileEntry Name="25243469244_vjd.737.idx" Filter="1" />
-    <FileEntry Name="255555054440.idx" Filter="1" />
-    <FileEntry Name="25555505444_5vR.16.idx" Filter="1" />
-    <FileEntry Name="25555505444_5XQ.120.idx" Filter="1" />
-    <FileEntry Name="25555505444_7cl.724.idx" Filter="1" />
-    <FileEntry Name="25555505444_Ay4.68.idx" Filter="1" />
-    <FileEntry Name="25555505444_kRj.40.idx" Filter="1" />
-    <FileEntry Name="25555505444_nMV.452.idx" Filter="1" />
-    <FileEntry Name="25555505444_RG7.520.idx" Filter="1" />
-    <FileEntry Name="25555505444_v3o.698.idx" Filter="1" />
-    <FileEntry Name="25555505444_Xau.738.idx" Filter="1" />
-    <FileEntry Name="25555505444_xzu.690.idx" Filter="1" />
-    <FileEntry Name="264805152440.idx" Filter="1" />
-    <FileEntry Name="26480515244_5ua.52.idx" Filter="1" />
-    <FileEntry Name="26480515244_705.750.idx" Filter="1" />
-    <FileEntry Name="26480515244_7NA.702.idx" Filter="1" />
-    <FileEntry Name="26480515244_JFN.128.idx" Filter="1" />
-    <FileEntry Name="26480515244_n5v.528.idx" Filter="1" />
-    <FileEntry Name="26480515244_pgT.732.idx" Filter="1" />
-    <FileEntry Name="26480515244_qG1.460.idx" Filter="1" />
-    <FileEntry Name="26480515244_Qty.80.idx" Filter="1" />
-    <FileEntry Name="26480515244_tlX.24.idx" Filter="1" />
-    <FileEntry Name="26480515244_uDH.706.idx" Filter="1" />
-    <FileEntry Name="267077613440.idx" Filter="1" />
-    <FileEntry Name="26707761344_4ic.41.idx" Filter="1" />
-    <FileEntry Name="26707761344_6cz.69.idx" Filter="1" />
-    <FileEntry Name="26707761344_70f.461.idx" Filter="1" />
-    <FileEntry Name="26707761344_9Sg.25.idx" Filter="1" />
-    <FileEntry Name="26707761344_Fdo.529.idx" Filter="1" />
-    <FileEntry Name="26707761344_i7h.707.idx" Filter="1" />
-    <FileEntry Name="26707761344_NCS.129.idx" Filter="1" />
-    <FileEntry Name="26707761344_Us1.733.idx" Filter="1" />
-    <FileEntry Name="26707761344_Vak.691.idx" Filter="1" />
-    <FileEntry Name="26707761344_Yv6.739.idx" Filter="1" />
-    <FileEntry Name="267194392440.idx" Filter="1" />
-    <FileEntry Name="26719439244_dyT.55.idx" Filter="1" />
-    <FileEntry Name="26719439244_FLR.705.idx" Filter="1" />
-    <FileEntry Name="26719439244_j8z.753.idx" Filter="1" />
-    <FileEntry Name="26719439244_w6y.83.idx" Filter="1" />
-    <FileEntry Name="32606895440.idx" Filter="1" />
-    <FileEntry Name="3260689544_0bk.126.idx" Filter="1" />
-    <FileEntry Name="3260689544_4jX.44.idx" Filter="1" />
-    <FileEntry Name="3260689544_6hP.694.idx" Filter="1" />
-    <FileEntry Name="3260689544_C3R.704.idx" Filter="1" />
-    <FileEntry Name="3260689544_C9U.22.idx" Filter="1" />
-    <FileEntry Name="3260689544_Coe.730.idx" Filter="1" />
-    <FileEntry Name="3260689544_EMX.72.idx" Filter="1" />
-    <FileEntry Name="3260689544_fJv.526.idx" Filter="1" />
-    <FileEntry Name="3260689544_O3e.742.idx" Filter="1" />
-    <FileEntry Name="3260689544_yZU.458.idx" Filter="1" />
-    <FileEntry Name="36270691440.idx" Filter="1" />
-    <FileEntry Name="3627069144_52O.751.idx" Filter="1" />
-    <FileEntry Name="3627069144_IW3.703.idx" Filter="1" />
-    <FileEntry Name="3627069144_njd.81.idx" Filter="1" />
-    <FileEntry Name="3627069144_wK8.53.idx" Filter="1" />
-    <FileEntry Name="37895095440.idx" Filter="1" />
-    <FileEntry Name="3789509544_6Vp.117.idx" Filter="1" />
-    <FileEntry Name="3789509544_7lL.695.idx" Filter="1" />
-    <FileEntry Name="3789509544_827.449.idx" Filter="1" />
-    <FileEntry Name="3789509544_Idx.45.idx" Filter="1" />
-    <FileEntry Name="3789509544_oqE.13.idx" Filter="1" />
-    <FileEntry Name="3789509544_s19.517.idx" Filter="1" />
-    <FileEntry Name="3789509544_T7J.73.idx" Filter="1" />
-    <FileEntry Name="3789509544_X8L.695.idx" Filter="1" />
-    <FileEntry Name="3789509544_XqC.743.idx" Filter="1" />
-    <FileEntry Name="3789509544_zVo.721.idx" Filter="1" />
-    <FileEntry Name="37963040440.idx" Filter="1" />
-    <FileEntry Name="3796304044_6yT.722.idx" Filter="1" />
-    <FileEntry Name="3796304044_anW.14.idx" Filter="1" />
-    <FileEntry Name="3796304044_cHO.77.idx" Filter="1" />
-    <FileEntry Name="3796304044_Dbs.118.idx" Filter="1" />
-    <FileEntry Name="3796304044_eoC.518.idx" Filter="1" />
-    <FileEntry Name="3796304044_l3a.49.idx" Filter="1" />
-    <FileEntry Name="3796304044_oXo.747.idx" Filter="1" />
-    <FileEntry Name="3796304044_pQR.450.idx" Filter="1" />
-    <FileEntry Name="3796304044_w1c.699.idx" Filter="1" />
-    <FileEntry Name="3796304044_xc2.696.idx" Filter="1" />
-    <FileEntry Name="62896558440.idx" Filter="1" />
-    <FileEntry Name="6289655844_4S8.18.idx" Filter="1" />
-    <FileEntry Name="6289655844_7rq.46.idx" Filter="1" />
-    <FileEntry Name="6289655844_IPR.726.idx" Filter="1" />
-    <FileEntry Name="6289655844_Ivx.522.idx" Filter="1" />
-    <FileEntry Name="6289655844_kFO.744.idx" Filter="1" />
-    <FileEntry Name="6289655844_u9n.122.idx" Filter="1" />
-    <FileEntry Name="6289655844_V0U.700.idx" Filter="1" />
-    <FileEntry Name="6289655844_vfB.696.idx" Filter="1" />
-    <FileEntry Name="6289655844_xeA.74.idx" Filter="1" />
-    <FileEntry Name="6289655844_yoW.454.idx" Filter="1" />
-    <FileEntry Name="80712502440.idx" Filter="1" />
-    <FileEntry Name="8071250244_aL6.700.idx" Filter="1" />
-    <FileEntry Name="8071250244_iIO.725.idx" Filter="1" />
-    <FileEntry Name="8071250244_JRa.521.idx" Filter="1" />
-    <FileEntry Name="8071250244_ovZ.17.idx" Filter="1" />
-    <FileEntry Name="8071250244_pCi.121.idx" Filter="1" />
-    <FileEntry Name="8071250244_qFs.50.idx" Filter="1" />
-    <FileEntry Name="8071250244_V5T.748.idx" Filter="1" />
-    <FileEntry Name="8071250244_XDp.78.idx" Filter="1" />
-    <FileEntry Name="8071250244_Z9I.699.idx" Filter="1" />
-    <FileEntry Name="8071250244_ZXh.453.idx" Filter="1" />
-    <FileEntry Name="87362163440.idx" Filter="1" />
-    <FileEntry Name="8736216344_0Q2.15.idx" Filter="1" />
-    <FileEntry Name="8736216344_7iw.451.idx" Filter="1" />
-    <FileEntry Name="8736216344_ecJ.48.idx" Filter="1" />
-    <FileEntry Name="8736216344_efE.698.idx" Filter="1" />
-    <FileEntry Name="8736216344_fsS.697.idx" Filter="1" />
-    <FileEntry Name="8736216344_gxu.76.idx" Filter="1" />
-    <FileEntry Name="8736216344_h3h.119.idx" Filter="1" />
-    <FileEntry Name="8736216344_sNp.519.idx" Filter="1" />
-    <FileEntry Name="8736216344_udm.746.idx" Filter="1" />
-    <FileEntry Name="8736216344_ZUc.723.idx" Filter="1" />
-    <FileEntry Name="9177670440.idx" Filter="1" />
-    <FileEntry Name="917767044_BMo.19.idx" Filter="1" />
-    <FileEntry Name="917767044_Cw3.455.idx" Filter="1" />
-    <FileEntry Name="917767044_DBm.523.idx" Filter="1" />
-    <FileEntry Name="917767044_G7E.752.idx" Filter="1" />
-    <FileEntry Name="917767044_Jl7.727.idx" Filter="1" />
-    <FileEntry Name="917767044_noD.704.idx" Filter="1" />
-    <FileEntry Name="917767044_onT.123.idx" Filter="1" />
-    <FileEntry Name="917767044_qD1.82.idx" Filter="1" />
-    <FileEntry Name="917767044_z15.54.idx" Filter="1" />
-    <FileEntry Name="917767044_zDP.701.idx" Filter="1" />
-    <FileEntry Name="99160608440.idx" Filter="1" />
-    <FileEntry Name="9916060844_3bC.754.idx" Filter="1" />
-    <FileEntry Name="9916060844_3FF.706.idx" Filter="1" />
-    <FileEntry Name="9916060844_44E.51.idx" Filter="1" />
-    <FileEntry Name="9916060844_5XD.84.idx" Filter="1" />
-    <FileEntry Name="9916060844_7FJ.56.idx" Filter="1" />
-    <FileEntry Name="9916060844_hh9.115.idx" Filter="1" />
-    <FileEntry Name="9916060844_J7j.515.idx" Filter="1" />
-    <FileEntry Name="9916060844_MKY.11.idx" Filter="1" />
-    <FileEntry Name="9916060844_rNe.447.idx" Filter="1" />
-    <FileEntry Name="9916060844_Xzy.359.idx" Filter="1" />
-    <FileEntry Name="9916060844_Y2t.693.idx" Filter="1" />
-    <FileEntry Name="9916060844_ySP.719.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="ESVLoad_10Kb.c.pickle" Filter="1" />
     <FileEntry Name="ESVLoad_10Kb.ci" Filter="1" />
+    <FileEntry Name="ESVLoad_10Kb.prm.bak" Filter="1" />
     <FileEntry Name="ESVLoad_10Kb.sdf" Filter="1" />
-    <FileEntry Name="ESVLoad_1Mb.prm.bak" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
-    <FileEntry Name="mdrvKbD.79.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -256,10 +66,5 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name="VerifyTimeStamp_simple.csv" Filter="1" />
-    <FileEntry Name="VerifyTimeStamp_withSignedReport.csv" Filter="1" />
-    <FileEntry Name="VerifyWSS_simple.csv" Filter="1" />
-    <FileEntry Name="VerifyWSS_withSignedReport.csv" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
