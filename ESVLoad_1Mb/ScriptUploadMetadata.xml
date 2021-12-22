@@ -45,22 +45,6 @@
     <FileEntry Name="script_operations.xml" Filter="2" />
     <FileEntry Name="combined_ESVLoad_1Mb.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="110999115440.idx" Filter="1" />
-    <FileEntry Name="114241138440.idx" Filter="1" />
-    <FileEntry Name="120281972440.idx" Filter="1" />
-    <FileEntry Name="130726970440.idx" Filter="1" />
-    <FileEntry Name="138562266440.idx" Filter="1" />
-    <FileEntry Name="142269427440.idx" Filter="1" />
-    <FileEntry Name="170098155440.idx" Filter="1" />
-    <FileEntry Name="178539144440.idx" Filter="1" />
-    <FileEntry Name="204893676440.idx" Filter="1" />
-    <FileEntry Name="244135675440.idx" Filter="1" />
-    <FileEntry Name="255095358440.idx" Filter="1" />
-    <FileEntry Name="257463218440.idx" Filter="1" />
-    <FileEntry Name="3534634440.idx" Filter="1" />
-    <FileEntry Name="63109834440.idx" Filter="1" />
-    <FileEntry Name="71048515440.idx" Filter="1" />
-    <FileEntry Name="97683291440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -82,6 +66,5 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
